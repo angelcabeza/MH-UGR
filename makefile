@@ -8,13 +8,13 @@ DATOS	   = $(HOME)/conjunto_datos_PAR_2020-21
 all: $(BIN)/par
 
 $(BIN)/par : $(OBJ)/PAR.o $(OBJ)/datos.o
-	g++ $(OBJ)/PAR.o $(OBJ)/datos.o -o $(BIN)/par
+	g++ $(OBJ)/PAR.o $(OBJ)/datos.o -o $(BIN)/par -std=c++11
 
-$(OBJ)/PAR.o: $(SRC)/PAR.cpp $(OBJ)/datos.o
-	g++ -c $^ -I$(INCLUDE) -o $@
+$(OBJ)/PAR.o: $(SRC)/PAR.cpp
+	g++ $^ -I$(INCLUDE) -c -o $@ -std=c++11
 
-$(OBJ)/datos.o: $(SRC)/datos.cpp $(INCLUDE)/datos.h
-	g++ -c $^ -I$(INCLUDE) -o $@
+$(OBJ)/datos.o: $(SRC)/datos.cpp
+	g++ $^ -I$(INCLUDE) -c -o $@ -std=c++11
 
 clean:
 	-rm $(OBJ)/*.o

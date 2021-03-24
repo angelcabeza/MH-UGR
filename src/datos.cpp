@@ -98,3 +98,25 @@ vector<vector<int>> LeerDatos::leerRestricciones(const string path){
 
     return datos;
 }
+
+list<pair<pair<vector<double>,vector<double>>,int>> LeerDatos::restriccionesEnLista (vector<vector<double>> datos, vector<vector<int>> restricciones){
+
+    list<pair<pair<vector<double>,vector<double>>,int>> lista_restricciones;
+
+    pair<vector<double>,vector<double>> par_puntos;
+    pair<pair<vector<double>,vector<double>>,int> puntos_restriccion;
+
+    for (int i = 0; i < restricciones.size(); i++){
+        for (int j = 0; j < restricciones[i].size(); j++){
+            par_puntos.first = datos[i];
+            par_puntos.second = datos[j];
+
+            puntos_restriccion.first = par_puntos;
+            puntos_restriccion.second = restricciones[i][j];
+
+            lista_restricciones.push_back(puntos_restriccion);
+        }
+    }
+
+    return lista_restricciones;
+}
