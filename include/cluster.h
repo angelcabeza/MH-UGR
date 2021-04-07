@@ -3,16 +3,17 @@
 
 #include <iostream>
 #include <vector>
+#include <set>
+#include <algoritmos.h>
 using namespace std;
 
 
 class Cluster{
     private:
         vector<double> centroide;
-        vector<vector<double>> puntos_incluidos;
+        set<int> puntos_incluidos;
         double distancia_media_intracluster;
 
-        double distanciaEuclidea(vector<double> punto_a);
 
     public:
 
@@ -21,6 +22,7 @@ class Cluster{
         vector<vector<double>> getPuntos();
         void calcularCentroide();
         void calcularDistanciaMediaIntracluster();
+        double getDistanciaMediaIntracluster();
 };
 
 #endif

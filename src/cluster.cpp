@@ -1,5 +1,5 @@
 #include <cluster.h>
-#include <math>
+#include <math.h>
 
 Cluster::Cluster(){}
 
@@ -37,24 +37,16 @@ void Cluster::calcularCentroide(){
     }
 }
 
-
-double Cluster::distanciaEuclidea(vector<double> a){
-
-    double distancia = 0;
-
-    for (int i = 0; i < centroide.size(); i++){
-        distancia = pow(abs(a[i] - centroide[i]),2)
-    }
-
-    return sqrt(distancia);
-}
-
 void Cluster::calcularDistanciaMediaIntracluster(){
     double sumatoria = 0;
 
     for (int i = 0; i < puntos_incluidos.size(); i++){
-        sumatoria += distanciaEuclidea(puntos_incluidos[i]);
+        sumatoria += distanciaEuclidea(puntos_incluidos[i],centroide);
     }
 
-    distancia_media_intracluster = sumatoria/puntos_includios.size();
+    distancia_media_intracluster = sumatoria/puntos_incluidos.size();
+}
+
+double Cluster::getDistanciaMediaIntracluster(){
+    return distancia_media_intracluster;
 }
