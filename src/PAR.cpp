@@ -42,13 +42,15 @@ PAR::PAR(string fichero_datos,string fichero_restricc,int num_clusters,int semil
         for (int j = i; j < datos.size(); j++){
             distancia = distanciaEuclidea(datos[i],datos[j]);
 
-            if (distancia > mayor_distancia){
-                mayor_distancia = distancia;
+            if (distancia > mayor_distancia && distancia <= 1.0){
+                mayor_distancia = distancia * 1.0;
             }
         }
     }
 
-    LAMBDA = mayor_distancia / (restricciones.size()/2.0);
+
+    cout << mayor_distancia << endl;
+    LAMBDA = (mayor_distancia) / (restricciones.size()/2.0);
 
     Set_random(semilla);
 }
@@ -96,13 +98,13 @@ void PAR::leerDatos(const string path){
 }
 
 void PAR::leerRestricciones(const string path){
-    std::ifstream entrada(path);
+    ifstream entrada(path);
 
 	if (entrada.is_open()){
 
-		std::string linea;
+		string linea;
 
-		std::string valor;
+		string valor;
 
 
 		int num_linea = 0;
@@ -111,7 +113,7 @@ void PAR::leerRestricciones(const string path){
 		int v_res;
 
 
-		std::istringstream dato_linea;
+		istringstream dato_linea;
 
 		getline(entrada, linea);
 
@@ -131,7 +133,7 @@ void PAR::leerRestricciones(const string path){
 				//restricciones[num_linea].push_back(atoi(valor.c_str()));
 
 				if (v_res != 0 && num_linea != num_elemento)
-					restricciones.insert( std::make_pair( std::make_pair(num_linea, num_elemento), v_res ));
+					restricciones.insert( make_pair( make_pair(num_linea, num_elemento), v_res ));
 
 				num_elemento++;
 
@@ -204,18 +206,17 @@ double PAR::getDesviacionGeneralParticion(){
 vector<PAR::Cluster> PAR::Greedy (){
 
     // inicialización de indices aleatorios
-    std::vector<int> indices;
+    vector<int> indices;
 
     for (unsigned i = 0; i < datos.size(); i++){
         indices.push_back(i);
     }
 
-    std::random_shuffle(indices.begin(), indices.end());
+    random_shuffle(indices.begin(), indices.end(), RandPositiveInt);
 
+    double minimo = numeric_limits<double>::infinity();
 
-    double minimo = std::numeric_limits<double>::infinity();
-
-    double maximo = std::numeric_limits<double>::infinity();
+    double maximo = numeric_limits<double>::infinity();
     maximo = -maximo;
 
 
@@ -232,7 +233,7 @@ vector<PAR::Cluster> PAR::Greedy (){
 
     // inicialización de centroides aleatorios
     for (unsigned i = 0; i < clusters.size(); i++){
-        std::vector<double> n_centroide;
+        vector<double> n_centroide;
         for (unsigned j = 0; j < clusters[i].getCentroide().size(); j++){
             n_centroide.push_back(Randfloat(minimo, maximo));
         }
@@ -243,18 +244,18 @@ vector<PAR::Cluster> PAR::Greedy (){
 
 
     bool hay_cambios = false;
-    std::vector<bool> cambios(clusters.size(), false);
-    std::vector<bool> cambios_anterior = cambios;
+    vector<bool> cambios(clusters.size(), false);
+    vector<bool> cambios_anterior = cambios;
     bool sol_vacia = false;
 
     int num_cluster;
 
-    std::vector<Cluster> n_sol = clusters;
+    vector<Cluster> n_sol = clusters;
     int contador = 0;
 
     do {
     hay_cambios = false;
-    cambios = std::vector<bool>(clusters.size(), false);
+    cambios = vector<bool>(clusters.size(), false);
 
     for (auto it = indices.begin(); it != indices.end(); ++it){
 
@@ -264,12 +265,14 @@ vector<PAR::Cluster> PAR::Greedy (){
 
     }
 
+    int indice_elemento_sacar;
+
     for (unsigned i = 0; i < clusters.size(); i++){
 
         cambios[i] = n_sol[i].getPuntos() != clusters[i].getPuntos();
 
         if (clusters[i].getPuntos().size() == 0){
-            double max_dist = numeric_limits<double>::min();
+            double max_dist = -99999999;
             double dist;
             int cluster_mas_elementos = i;
 
@@ -281,9 +284,7 @@ vector<PAR::Cluster> PAR::Greedy (){
                 }
             }
 
-            int indice_elemento_sacar;
             for (auto k = clusters[cluster_mas_elementos].getPuntos().begin(); k != clusters[cluster_mas_elementos].getPuntos().end(); ++k){
-
                 dist = distanciaEuclidea(clusters[cluster_mas_elementos].getCentroide(),datos[(*k)]);
 
                 if (dist > max_dist){
@@ -310,21 +311,9 @@ vector<PAR::Cluster> PAR::Greedy (){
 
     }
 
-    for (unsigned i = 0; i < cambios.size(); i++){
-        hay_cambios = hay_cambios || cambios[i];
-    }
-
     hay_cambios = cambios != cambios_anterior;
 
-    // ESTO LO HAGO EXCLUSIVAMENTE PORQUE EN EL DATASET BUPA 10% RESTRICCIONES TENGO PROBLEMAS
-    if (sol_vacia){
-        hay_cambios = true;
-    }
-
-    sol_vacia = false;
-
     cambios_anterior = cambios;
-    contador++;
 
     } while(hay_cambios);
 
@@ -359,21 +348,21 @@ int PAR::devolverPosPunto(vector<double> punto){
 
 int PAR::seleccionarCluster(const int elemento){
     double d;
-	double menor_distancia = std::numeric_limits<double>::infinity();
+	double menor_distancia = numeric_limits<double>::infinity();
 	int cluster_menor_distancia = -1;
 	int menor_restricciones = restricciones.size();
 
 
-	std::vector< std::pair<int, int>> aumento_infactibilidad;
+	vector< pair<int, int>> aumento_infactibilidad;
 
 
 	for (unsigned i = 0; i < clusters.size(); i++){
 
-		aumento_infactibilidad.push_back( std::make_pair(calcularInfeasibility(elemento, i), i ) );
+		aumento_infactibilidad.push_back( make_pair(calcularInfeasibility(elemento, i), i ) );
 
 	}
 
-	std::sort(aumento_infactibilidad.begin(), aumento_infactibilidad.end());
+	sort(aumento_infactibilidad.begin(), aumento_infactibilidad.end());
 
 	menor_restricciones = aumento_infactibilidad.begin()->first;
 
@@ -391,22 +380,20 @@ int PAR::seleccionarCluster(const int elemento){
 	return cluster_menor_distancia;
 }
 
-double PAR::distanciaEuclidea(vector<double> & p1, vector<double> & p2) const {
-    double distancia = 0;
+double PAR::distanciaEuclidea(const vector<double> & p1, const vector<double> & p2) const {
+    double distancia = 0.0;
 
     for (int i = 0; i < p1.size(); i++){
-        distancia = pow(abs(p1[i] - p2[i]),2);
+        distancia += pow(p1[i] - p2[i],2);
     }
 
-    return distancia;
+    return sqrt(distancia);
 }
 
 int PAR::calcularInfeasibilityCluster(){
 
     int infeasibility = 0;
     for(auto it = lista_restricciones_diag_sup.begin(); it != lista_restricciones_diag_sup.end(); ++it){
-
-        if ( get<0>((*it)) <= get<1>((*it)) ){
 
             int cluster1 = buscarClusterContieneElemento(get<0>((*it)));
             int cluster2 = buscarClusterContieneElemento(get<1>((*it)));
@@ -418,7 +405,6 @@ int PAR::calcularInfeasibilityCluster(){
             if (get<2>((*it)) == -1 && cluster1 == cluster2 ){
                 infeasibility++;
             }
-        }
     }
 
     return infeasibility;
@@ -443,6 +429,9 @@ int PAR::buscarClusterContieneElemento(int elemento){
 }
 
 void PAR::calcularAgregado(){
+    //cout << "Desviacion: " << desviacion_general << endl;
+    //cout << "Tasa inf: " << calcularInfeasibilityCluster() << endl;
+    //cout << "Multiplicacion: " << calcularInfeasibilityCluster()*LAMBDA << endl;
     agregadoSol = desviacion_general + calcularInfeasibilityCluster() * LAMBDA;
 }
 
@@ -520,8 +509,8 @@ vector<PAR::Cluster> PAR::BusquedaLocal(vector<PAR::Cluster> & sol_ini,const int
     while(hay_mejor && contador < MAX_ITER){
         hay_mejor = false;
 
-        random_shuffle(indices.begin(),indices.end());
-        random_shuffle(indices_clusters.begin(),indices_clusters.end());
+        random_shuffle(indices.begin(),indices.end(),RandPositiveInt);
+        random_shuffle(indices_clusters.begin(),indices_clusters.end(),RandPositiveInt);
 
         for (auto it = indices.begin(); it != indices.end() && !hay_mejor; ++it){
 
@@ -570,7 +559,425 @@ vector<PAR::Cluster> PAR::BusquedaLocal(vector<PAR::Cluster> & sol_ini,const int
     return clusters;
 }
 
+// PRÁCTICA 2
+vector<int> PAR::clustersToSolucion( vector<Cluster> clustersSol) {
+    vector<int> sol;
 
+    int tam_total = 0;
+
+    for (int i = 0; i < clustersSol.size(); i++){
+        tam_total += clustersSol[i].getPuntos().size();
+    }
+
+    sol.resize(tam_total);
+
+    for (int i = 0; i < clustersSol.size(); i++){
+        for (auto it = clustersSol[i].getPuntos().begin(); it != clustersSol[i].getPuntos().end(); ++it){
+            sol[(*it)] = i;
+        }
+    }
+
+    return sol;
+}
+
+vector<PAR::Cluster> PAR::solucionToClusters(const vector<int> & sol){
+    vector<PAR::Cluster> solucion;
+
+    for (int i = 0; i < clusters.size(); i++){
+        solucion.push_back(Cluster((*this)));
+    }
+
+    for (int i = 0; i < sol.size(); i++){
+        solucion[sol[i]].aniadirElemento(i);
+    }
+
+    return solucion;
+}
+
+vector<pair<vector<int>,double>> PAR::operadorSeleccion(const vector<pair<vector<int>, double>> & poblacion, const int tam){
+
+    // Vector dondee guardaremos la población intermedia
+    vector<pair<vector<int>,double>> poblacion_intermedia;
+
+    // Vamos a hacer torneos binarios, sacamos dos índices aleatorios
+    // y metemos aquel cromosoma que sea el mejor
+    while ((int) poblacion_intermedia.size() != tam){
+        int primer_candidato = RandPositiveInt(poblacion.size());
+        int segundo_candidato = RandPositiveInt(poblacion.size());
+
+        if(poblacion[primer_candidato].second > poblacion[segundo_candidato].second){
+            poblacion_intermedia.push_back(poblacion[primer_candidato]);
+        }
+        else{
+            poblacion_intermedia.push_back(poblacion[segundo_candidato]);
+        }
+    }
+
+    return poblacion_intermedia;
+}
+
+int PAR::operadorCruceUniforme (vector<pair<vector<int>, double>> & poblacion, const double PROB_CRUCE){
+    // Numero de cruces que se espera hacer por evaluación
+    const int NUM_CRUCES = (poblacion.size()/2) * PROB_CRUCE;
+
+    int evaluaciones = 0;
+
+    set<int> valores;
+    vector<int> cruce;
+    int indice = 0;
+
+    for (int i = 0; i < NUM_CRUCES*2; i++){
+        valores.clear();
+
+        // Cogemos la mitad de los genes del primer padre
+        while (valores.size() < poblacion[indice].first.size()/2){
+            int valor = RandPositiveInt(poblacion[indice].first.size());
+
+            auto pos = valores.find(valor);
+            if (pos == valores.end()){
+                valores.insert(valor);
+            }
+        }
+
+        cruce.resize(poblacion[indice].first.size());
+
+        // Vamos a ir añadiendo los genes al cruce, buscamos el gen y si está
+        // en el vector de genes del padre 1 lo añadimos, si no lo añadimos del gen del otro padre
+        for (int j = 0; j < poblacion[indice].first.size(); j++){
+            auto pos = valores.find(j);
+
+            if (pos != valores.end()){
+                cruce[j] = poblacion[indice].first[j];
+            }
+            else{
+                cruce[j] = poblacion[indice+1].first[j];
+            }
+        }
+
+        repararCruce(cruce);
+
+        clusters = solucionToClusters(cruce);
+        desviacionGeneralParticion();
+        calcularAgregado();
+
+        pair<vector<int>,double> genCruzado (cruce,getAgregado());
+        evaluaciones++;
+
+        poblacion.push_back(genCruzado);
+
+        // Si hemos hecho los dos ccruces, borramos los dos primeros individuos de la poblacion
+        if (i%2 == 1){
+            poblacion.erase(poblacion.begin());
+            poblacion.erase(poblacion.begin());
+        }
+    }
+
+    return evaluaciones;
+}
+
+void PAR::repararCruce(vector<int> & reparado){
+    vector<int> contador(clusters.size(),0);
+
+    for (auto it = reparado.begin(); it != reparado.end(); ++it){
+        contador[(*it)]++;
+    }
+
+    for (int i = 0; i < contador.size(); i++){
+        if (contador[i] == 0){
+            int ele_alea;
+
+            do{
+                ele_alea = RandPositiveInt(reparado.size());
+            } while (contador[reparado[ele_alea]] - 1 == 0);
+
+            contador[reparado[ele_alea]]--;
+            reparado[ele_alea] = i;
+            contador[i]++;
+        }
+    }
+}
+
+int PAR::operadorCruceSegmentoFijo(vector<pair<vector<int>,double>> & poblacion, const double PROB_CRUCE){
+
+    const int NUM_CRUCES = poblacion.size()/2 * PROB_CRUCE;
+
+    set<int> valores;
+    int evaluaciones = 0;
+
+    vector<int> cruce;
+
+    int tam_segmento;
+    int ini_segmento;
+    int fin_segmento;
+
+    int rango_fijo_low, rango_fijo_high;
+
+    int indice_p1 = 0;
+    int indice_p2 = 1;
+
+    for (int i = 0; i < NUM_CRUCES*2; i++){
+
+        indice_p1 = 0;
+        indice_p2 = 1;
+
+        if (poblacion[indice_p2].second < poblacion[indice_p1].second){
+            indice_p1 = 1;
+            indice_p2 = 0;
+        }
+
+        tam_segmento = RandPositiveInt(poblacion[i].first.size());
+        ini_segmento = RandPositiveInt(poblacion[i].first.size());
+
+        fin_segmento = ini_segmento + tam_segmento +1;
+
+        cruce = vector<int>(poblacion[i].first.size(), -1);
+
+        int j = ini_segmento;
+
+        while (j <= ini_segmento + tam_segmento){
+            cruce[j%poblacion[indice_p1].first.size()] = poblacion[indice_p1].first[j%poblacion[indice_p1].first.size()];
+            j++;
+        }
+
+        if (fin_segmento >= (int) poblacion[indice_p1].first.size()){
+            rango_fijo_low = (fin_segmento % poblacion[indice_p1].first.size());
+            rango_fijo_high = ini_segmento;
+        }
+        else{
+            rango_fijo_low = fin_segmento;
+            rango_fijo_high = poblacion[indice_p1].first.size() + ini_segmento;
+        }
+
+        valores.clear();
+
+        while( valores.size() < (int) (rango_fijo_high-rango_fijo_low+1)/2){
+            int valor = Randint(rango_fijo_low, rango_fijo_high);
+
+            auto pos = valores.find(valor);
+            if (pos == valores.end()){
+                valores.insert(valor % poblacion[indice_p1].first.size());
+            }
+        }
+
+        for (int j = rango_fijo_low; j < rango_fijo_high; j++){
+            int v = j % poblacion[indice_p1].first.size();
+            auto pos = valores.find(v);
+
+            if (pos != valores.end()){
+                cruce[v] = poblacion[indice_p1].first[v];
+            }
+            else{
+                cruce[v] = poblacion[indice_p2].first[v];
+            }
+        }
+
+        repararCruce(cruce);
+
+        clusters = solucionToClusters(cruce);
+        desviacionGeneralParticion();
+        calcularAgregado();
+
+        pair<vector<int>,double> cruzado (cruce, getAgregado());
+        evaluaciones++;
+
+        poblacion.push_back(cruzado);
+
+        if (i % 2 == 1){
+            poblacion.erase(poblacion.begin());
+            poblacion.erase(poblacion.begin());
+        }
+    }
+
+    return evaluaciones;
+}
+
+int PAR::operadorMutacion(vector<pair<vector<int>, double>> & poblacion, const double PROB_MUT,tipo_generacion tipo_gen){
+
+    vector<int> contador (clusters.size(),0);
+
+    int evaluaciones = 0;
+
+    int elemento_poblacion;
+    int gen;
+    int destino;
+    int mut;
+
+    // Si es estacionario nos sale que mutemos 0.2 genes por lo que vamos a mutar 1 gen solo
+    if (tipo_gen == tipo_generacion::ESTACIONARIO){
+        mut = 1;
+    }
+    else{
+        mut = poblacion.size()*poblacion[0].first.size() * PROB_MUT;
+    }
+
+    const int NUM_MUTACIONES = mut;
+
+    for (int i = 0; i < NUM_MUTACIONES; i++){
+        elemento_poblacion = RandPositiveInt(poblacion.size());
+        contador = vector<int>(clusters.size(),0);
+
+        for (auto it = poblacion[elemento_poblacion].first.begin(); it != poblacion[elemento_poblacion].first.end();++it){
+            contador[(*it)]++;
+        }
+
+        do{
+            gen = RandPositiveInt(poblacion[elemento_poblacion].first.size());
+        } while (contador[poblacion[elemento_poblacion].first[gen]] - 1 <= 0);
+
+        destino = RandPositiveInt(clusters.size());
+
+        contador[poblacion[elemento_poblacion].first[gen]]--;
+        poblacion[elemento_poblacion].first[gen] = destino;
+        contador[destino]++;
+
+        clusters = solucionToClusters(poblacion[elemento_poblacion].first);
+        desviacionGeneralParticion();
+        calcularAgregado();
+        poblacion[elemento_poblacion].second = getAgregado();
+        evaluaciones++;
+    }
+
+    return evaluaciones;
+}
+
+vector<vector<int>> PAR::generarPoblacionInicial(const int TAM_POB){
+    vector<vector<int>> poblacion;
+
+    while(poblacion.size() < TAM_POB){
+        poblacion.push_back(clustersToSolucion(generarSolucionAleatoria(num_clusters)));
+    }
+
+    return poblacion;
+}
+
+vector<PAR::Cluster> PAR::AlgGenetico(const int EV_MAX,const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE, operador_cruce tipo_cruce, tipo_generacion tipo_gen ,bool elitismo){
+
+    // Generamos la población inical
+    vector<vector<int>> p = generarPoblacionInicial(TAM_POB);
+
+    // Variables donde guardaremos la población actual y la anterior
+    vector<pair<vector<int>, double>> poblacion;
+    vector<pair<vector<int>,double>> poblacion_anterior;
+
+    poblacion.resize(p.size());
+
+    // Inicializamos la poblacion a la población inicial
+    // y guardamos el valor de la función objetivo
+    for (int i = 0; i < poblacion.size(); i++){
+        poblacion[i].first = p[i];
+        clusters = solucionToClusters(poblacion[i].first);
+        desviacionGeneralParticion();
+        calcularAgregado();
+        poblacion[i].second = getAgregado();
+    }
+
+    poblacion_anterior = poblacion;
+    pair<vector<int>,double> mejor = poblacion[0];
+
+    int indice_peor = 0;
+
+    // Guardamos el mejor cromosoma
+    for (int i = 0; i < poblacion.size(); i++){
+        if(poblacion[i].second < mejor.second){
+            mejor = poblacion[i];
+        }
+    }
+
+    int generacion = 0;
+    int evaluaciones = 0;
+
+    while (evaluaciones < EV_MAX){
+        // Operador de seleccion si es estacionario usamos dos padres
+        // si es generacional usamos la poblacion entera
+        if (tipo_gen == tipo_generacion::ESTACIONARIO){
+            poblacion = operadorSeleccion(poblacion_anterior,2);
+        }
+        else{
+            poblacion = operadorSeleccion(poblacion_anterior, poblacion_anterior.size());
+        }
+
+        // OPERADOR DE CRUCE
+        if (tipo_cruce == operador_cruce::SEGMENTO_FIJO){
+            evaluaciones += operadorCruceSegmentoFijo(poblacion,PROB_CRUCE);
+        }
+        else{
+            evaluaciones += operadorCruceUniforme(poblacion,PROB_CRUCE);
+        }
+
+        // OPERADOR DE MUTACIÓN
+        evaluaciones += operadorMutacion(poblacion,PROB_MUT,tipo_gen);
+
+        // REEMPLAZAMIENTO DE LA POBLACION
+        if (tipo_gen != tipo_generacion::ESTACIONARIO){
+            if (elitismo){
+                // miramos si el mejor de la anterior población sigue estando
+                auto pos_mejor = find(poblacion.begin(),poblacion.end(), mejor);
+
+                // si no esta lo añadimos
+                if (pos_mejor == poblacion.end()){
+                    poblacion.pop_back();
+                    poblacion.push_back(mejor);
+                }
+            }
+
+            poblacion_anterior = poblacion;
+        }
+        else{
+
+            int indice_peor = 0, indice_segundo_peor = 1;
+
+            if (poblacion[0].second > poblacion[1].second){
+                poblacion.push_back(poblacion[0]);
+                poblacion.erase(poblacion.begin());
+            }
+
+            for (int i = 0; i < poblacion_anterior.size(); i++){
+                if (poblacion_anterior[i].second > poblacion_anterior[indice_peor].second ){
+                    indice_peor = 1;    
+                }
+
+                if (poblacion_anterior[i].second > poblacion_anterior[indice_segundo_peor].second && indice_segundo_peor != indice_peor){
+                    indice_segundo_peor = i;
+                }
+            }
+
+            for (int i = 0; i < poblacion.size(); i++){
+                if (indice_peor != -1 && poblacion[i].second < poblacion_anterior[indice_peor].second){
+                    auto it = poblacion_anterior.begin();
+                    advance(it,indice_peor);
+
+                    poblacion_anterior.erase(it);
+                    poblacion_anterior.push_back(poblacion[i]);
+
+                    indice_peor = -1;
+                }
+                else if (indice_segundo_peor != -1 && poblacion[i].second < poblacion_anterior[indice_segundo_peor].second){
+                    auto it = poblacion_anterior.begin();
+                    advance(it,indice_segundo_peor);
+
+                    poblacion_anterior.erase(it);
+                    poblacion_anterior.push_back(poblacion[i]);
+
+                    indice_segundo_peor = -1;
+                }
+            }
+        }
+
+        for (int i = 0; i < poblacion_anterior.size(); i++){
+            if (poblacion_anterior[i].second < mejor.second){
+                mejor = poblacion_anterior[i];
+            }
+        }
+
+        generacion++;
+    }
+
+    clusters = solucionToClusters(mejor.first);
+    desviacionGeneralParticion();
+    calcularAgregado();
+
+    return clusters;
+}
 // CLASE CLUSTER
 
 PAR::Cluster::Cluster(PAR & P){
@@ -603,6 +1010,7 @@ void PAR::Cluster::calcularCentroide(){
             centroide[j] += p->datos[(*it)][j];
         }
     }
+
     // Hacemos la media de los puntos que tiene el cluster
     for (int i = 0; i < centroide.size(); i++){
         centroide[i] = centroide[i] / centroide.size();

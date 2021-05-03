@@ -8,6 +8,10 @@
 #include <list>
 using namespace std;
 
+
+enum class operador_cruce {SEGMENTO_FIJO, UNIFORME};
+enum class tipo_generacion {GENERACIONAL, ESTACIONARIO};
+
 class PAR{
     public:
 
@@ -43,15 +47,21 @@ class PAR{
         vector<Cluster> Greedy ();
         int devolverPosPunto(vector<double> punto);
         int seleccionarCluster(const int indice_elemento_nuevo);
-        double distanciaEuclidea(vector<double> & p1, vector<double> & p2) const;
+        double distanciaEuclidea(const vector<double> & p1, const vector<double> & p2) const;
         int buscarClusterContieneElemento(int elemento);
         void calcularAgregado();
         double getAgregado();
         vector<Cluster> generarSolucionAleatoria(int num_clusters);
         vector<Cluster> BusquedaLocal(vector<Cluster> & sol_inicial,const int MAX_ITER);
-
-        //friend ostream & operator << (ostream & os, const PAR & p);
-        
+        vector<Cluster> AlgGenetico(const int EV_MAX,const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE, operador_cruce tipo_cruce, tipo_generacion tipo_gen ,bool elitismo);
+        vector<int> clustersToSolucion( vector<Cluster> clustersSol);
+        vector<Cluster> solucionToClusters(const vector<int> & sol);
+        vector<pair<vector<int>,double>> operadorSeleccion(const vector<pair<vector<int>, double>> & poblacion, const int tam);
+        int operadorCruceUniforme (vector<pair<vector<int>, double>> & poblacion, const double PROB_CRUCE);
+        void repararCruce(vector<int> & reparado);
+        int operadorCruceSegmentoFijo(vector<pair<vector<int>,double>> & poblacion, const double PROB_CRUCE);
+        int operadorMutacion(vector<pair<vector<int>, double>> & poblacion, const double PROB_MUT,tipo_generacion tipo_gen);
+        vector<vector<int>> generarPoblacionInicial(const int TAM_POB);
 
     private:
         int num_clusters;

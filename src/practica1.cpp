@@ -8,7 +8,7 @@ int main (int argc , char * argv[]){
 
     if (argc < 6){
         cerr << "Error en los argumentos" << endl;
-        cerr << "Uso: " << argv[0] << " fichero_datos, fichero_restricciones, num_clustesr, semilla, distancia_optima_fichero_datos" << endl;
+        cerr << "Uso: " << argv[0] << " fichero_datos, fichero_restricciones, num_clusters, semilla, distancia_optima_fichero_datos" << endl;
         exit(-1);
     }
 
@@ -22,7 +22,7 @@ int main (int argc , char * argv[]){
 
     vector<PAR::Cluster> clusters;
 
-    cout << "Llamando a greedy.." << endl;
+    /*cout << "Llamando a greedy.." << endl;
 
     start_timers();
     clusters = problema.Greedy();
@@ -82,6 +82,38 @@ int main (int argc , char * argv[]){
     cout << "Error_distancia = " << abs(problema_BL.getDesviacionGeneralParticion() - distancia_optima) << endl;
 
     cout << "Tiempo = " << tiempo << endl << endl << endl;
+    */
 
+    cout << "Algoritmo Genético" << endl;
+
+    double tiempo;
+
+    clusters.clear();
+
+    PAR problema_AG(datos,restricciones,num_clusters,semilla);
+    cout << "LLamando al algoritmo genetico..." << endl;
+
+    start_timers();
+    clusters = problema_AG.AlgGenetico(100000,50,0.001,1,operador_cruce::SEGMENTO_FIJO,tipo_generacion::ESTACIONARIO,false);
+    tiempo = elapsed_time();
+
+    cout << "Algoritmo Genetico terminado" << endl;
+
+    for (int i = 0; i < clusters.size(); i++){
+        cout << "El cluster " << i << " ha terminado con: " << clusters[i].getPuntos().size() << " elementos" << endl;
+    }
+
+    cout << endl << endl;
+
+    problema_AG.calcularAgregado();
+    cout << "Agregado = " << problema_AG.getAgregado() << endl;
+
+    cout << "Tasa_inf = " << problema_AG.calcularInfeasibilityCluster() << endl;
+
+    cout << "Desviación general particion: " << problema_AG.getDesviacionGeneralParticion() << endl;
+
+    cout << "Error_distancia = " << abs(problema_AG.getDesviacionGeneralParticion() - distancia_optima) << endl;
+
+    cout << "Tiempo = " << tiempo << endl << endl << endl;
     return 0;
 }
