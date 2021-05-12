@@ -11,6 +11,7 @@ using namespace std;
 
 enum class operador_cruce {SEGMENTO_FIJO, UNIFORME};
 enum class tipo_generacion {GENERACIONAL, ESTACIONARIO};
+enum class tipo_memetico {M_110,M_101,M_101mej};
 
 class PAR{
     public:
@@ -54,6 +55,7 @@ class PAR{
         vector<Cluster> generarSolucionAleatoria(int num_clusters);
         vector<Cluster> BusquedaLocal(vector<Cluster> & sol_inicial,const int MAX_ITER);
         vector<Cluster> AlgGenetico(const int EV_MAX,const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE, operador_cruce tipo_cruce, tipo_generacion tipo_gen ,bool elitismo);
+        vector<Cluster> AlgMemetico(const int EV_MAX, const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE,bool elitismo,tipo_memetico memtico);
         vector<int> clustersToSolucion( vector<Cluster> clustersSol);
         vector<Cluster> solucionToClusters(const vector<int> & sol);
         vector<pair<vector<int>,double>> operadorSeleccion(const vector<pair<vector<int>, double>> & poblacion, const int tam);
@@ -62,6 +64,8 @@ class PAR{
         int operadorCruceSegmentoFijo(vector<pair<vector<int>,double>> & poblacion, const double PROB_CRUCE);
         int operadorMutacion(vector<pair<vector<int>, double>> & poblacion, const double PROB_MUT,tipo_generacion tipo_gen);
         vector<vector<int>> generarPoblacionInicial(const int TAM_POB);
+        int busquedaLocalSuave(pair<vector<int>,double> & solucion, const int num_fallos_permitidos);
+        
 
     private:
         int num_clusters;

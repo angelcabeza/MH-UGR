@@ -1,0 +1,4679 @@
+Ejecutando par dataset: ZOO restricciones 10%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 21 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 15 elementos
+
+
+Agregado = 0,161229
+Tasa_inf = 61
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,18713
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 11 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 15 elementos
+
+
+Agregado = 0,169459
+Tasa_inf = 65
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,90526
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,167402
+Tasa_inf = 64
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,8085
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 19 elementos
+
+
+Agregado = 0,177572
+Tasa_inf = 62
+Desviación general particion: 0,05
+Error_distancia = 0,8548
+Tiempo = 6,53826
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 17 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 22 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,493879
+Tasa_inf = 126
+Desviación general particion: 0,234619
+Error_distancia = 0,670181
+Tiempo = 6,72531
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 8 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,179747
+Tasa_inf = 70
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,07292
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,157113
+Tasa_inf = 59
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,94195
+
+
+Ejecutando PAR dataset: ZOO restricciones 10%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,163286
+Tasa_inf = 62
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 8,03271
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,152998
+Tasa_inf = 57
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,76453
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 24 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 8 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,213404
+Tasa_inf = 69
+Desviación general particion: 0,0714286
+Error_distancia = 0,833371
+Tiempo = 5,60614
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,167402
+Tasa_inf = 64
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,27989
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 20 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 20 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 8 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,528415
+Tasa_inf = 116
+Desviación general particion: 0,289732
+Error_distancia = 0,615068
+Tiempo = 7,48576
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,152998
+Tasa_inf = 57
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,51623
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,163202
+Tasa_inf = 57
+Desviación general particion: 0,0459184
+Error_distancia = 0,858881
+Tiempo = 6,40688
+
+
+Ejecutando par dataset: ZOO restricciones 10%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0,168798
+Tasa_inf = 56
+Desviación general particion: 0,0535714
+Error_distancia = 0,851228
+Tiempo = 6,58448
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 18 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,165344
+Tasa_inf = 63
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,98579
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,165344
+Tasa_inf = 63
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,89804
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,162608
+Tasa_inf = 59
+Desviación general particion: 0,0412088
+Error_distancia = 0,863591
+Tiempo = 6,31957
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 20 elementos
+El cluster 2 ha terminado con: 17 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 17 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,420232
+Tasa_inf = 107
+Desviación general particion: 0,200068
+Error_distancia = 0,704732
+Tiempo = 7,02265
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,161229
+Tasa_inf = 61
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 5,87826
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0,190208
+Tasa_inf = 71
+Desviación general particion: 0,0441176
+Error_distancia = 0,860682
+Tiempo = 5,78322
+
+
+Ejecutando PAR dataset: ZOO restricciones 10%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 17 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 11 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,198698
+Tasa_inf = 69
+Desviación general particion: 0,0567227
+Error_distancia = 0,848077
+Tiempo = 6,82582
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 18 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,163286
+Tasa_inf = 62
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,32762
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 17 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,174007
+Tasa_inf = 57
+Desviación general particion: 0,0567227
+Error_distancia = 0,848077
+Tiempo = 6,43559
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,175632
+Tasa_inf = 68
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,90432
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 11 elementos
+
+
+Agregado = 0,471095
+Tasa_inf = 130
+Desviación general particion: 0,203605
+Error_distancia = 0,701195
+Tiempo = 7,42119
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 11 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,150941
+Tasa_inf = 56
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,33221
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0,179069
+Tasa_inf = 67
+Desviación general particion: 0,0412088
+Error_distancia = 0,863591
+Tiempo = 6,43769
+
+
+Ejecutando par dataset: ZOO restricciones 10%,,,, semilla: 1\n
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 8 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,161229
+Tasa_inf = 61
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 7,01977
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 17 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,167402
+Tasa_inf = 64
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,45987
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 17 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,163286
+Tasa_inf = 62
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,75896
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 8 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,195547
+Tasa_inf = 69
+Desviación general particion: 0,0535714
+Error_distancia = 0,851228
+Tiempo = 6,85509
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 17 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 11 elementos
+
+
+Agregado = 0,565382
+Tasa_inf = 127
+Desviación general particion: 0,304066
+Error_distancia = 0,600734
+Tiempo = 7,50515
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,199765
+Tasa_inf = 67
+Desviación general particion: 0,0619048
+Error_distancia = 0,842895
+Tiempo = 6,364
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,167402
+Tasa_inf = 64
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 6,28994
+
+
+Ejecutando par dataset: ZOO restricciones 20%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,214442
+Tasa_inf = 163
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,0344
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0,20896
+Tasa_inf = 158
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,47999
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,20567
+Tasa_inf = 155
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,2628
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,201284
+Tasa_inf = 151
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,89791
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 11 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 19 elementos
+
+
+Agregado = 0,415883
+Tasa_inf = 240
+Desviación general particion: 0,152726
+Error_distancia = 0,752074
+Tiempo = 11,7125
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 11 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,217732
+Tasa_inf = 166
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,99852
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,19032
+Tasa_inf = 141
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,3841
+
+
+Ejecutando PAR dataset: ZOO restricciones 20%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 17 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,203109
+Tasa_inf = 145
+Desviación general particion: 0,0441176
+Error_distancia = 0,860682
+Tiempo = 9,98392
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0,218828
+Tasa_inf = 167
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,63543
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 15 elementos
+
+
+Agregado = 0,20567
+Tasa_inf = 155
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,88554
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,229793
+Tasa_inf = 177
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,2338
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 8 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 11 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 19 elementos
+
+
+Agregado = 0,430116
+Tasa_inf = 256
+Desviación general particion: 0,149415
+Error_distancia = 0,755385
+Tiempo = 12,3246
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 17 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,200188
+Tasa_inf = 150
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,5203
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,219925
+Tasa_inf = 168
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,2889
+
+
+Ejecutando par dataset: ZOO restricciones 20%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 18 elementos
+
+
+Agregado = 0,20896
+Tasa_inf = 158
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 11,1333
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,20567
+Tasa_inf = 155
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,9234
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 18 elementos
+
+
+Agregado = 0,199091
+Tasa_inf = 149
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,5881
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,200188
+Tasa_inf = 150
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,8603
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 17 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,475018
+Tasa_inf = 262
+Desviación general particion: 0,187737
+Error_distancia = 0,717063
+Tiempo = 12,9702
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 20 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 15 elementos
+
+
+Agregado = 0,225956
+Tasa_inf = 145
+Desviación general particion: 0,0669643
+Error_distancia = 0,837836
+Tiempo = 10,858
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 18 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,209482
+Tasa_inf = 144
+Desviación general particion: 0,0515873
+Error_distancia = 0,853213
+Tiempo = 10,7977
+
+
+Ejecutando PAR dataset: ZOO restricciones 20%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,193609
+Tasa_inf = 144
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,0993
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,206767
+Tasa_inf = 156
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,44107
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 18 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,211153
+Tasa_inf = 160
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,2418
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,217732
+Tasa_inf = 166
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,9278
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 11 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,433637
+Tasa_inf = 247
+Desviación general particion: 0,162803
+Error_distancia = 0,741996
+Tiempo = 11,9942
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,223214
+Tasa_inf = 171
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,3491
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0,211153
+Tasa_inf = 160
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,1847
+
+
+Ejecutando par dataset: ZOO restricciones 20%,,,, semilla: 1
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,206767
+Tasa_inf = 156
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 11,264
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,212249
+Tasa_inf = 161
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 9,93672
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 17 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,221021
+Tasa_inf = 169
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,0915
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0,226504
+Tasa_inf = 174
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,9683
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 7 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,500096
+Tasa_inf = 248
+Desviación general particion: 0,228167
+Error_distancia = 0,676633
+Tiempo = 12,1361
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0,222118
+Tasa_inf = 170
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,3436
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0,20896
+Tasa_inf = 158
+Desviación general particion: 0,0357143
+Error_distancia = 0,869086
+Tiempo = 10,3659
+
+
+Ejecutando par dataset: GLASS restricciones 10%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 26 elementos
+El cluster 4 ha terminado con: 63 elementos
+El cluster 5 ha terminado con: 33 elementos
+El cluster 6 ha terminado con: 65 elementos
+
+
+Agregado = 0,185346
+Tasa_inf = 148
+Desviación general particion: 0,117049
+Error_distancia = 0,247242
+Tiempo = 32,9287
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 66 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 29 elementos
+El cluster 4 ha terminado con: 62 elementos
+El cluster 5 ha terminado con: 29 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,190732
+Tasa_inf = 139
+Desviación general particion: 0,126588
+Error_distancia = 0,237702
+Tiempo = 28,9731
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 64 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 62 elementos
+El cluster 5 ha terminado con: 27 elementos
+El cluster 6 ha terminado con: 33 elementos
+
+
+Agregado = 0,181931
+Tasa_inf = 148
+Desviación general particion: 0,113633
+Error_distancia = 0,250657
+Tiempo = 31,0049
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 62 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 29 elementos
+El cluster 4 ha terminado con: 64 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,188693
+Tasa_inf = 160
+Desviación general particion: 0,114858
+Error_distancia = 0,249432
+Tiempo = 28,9268
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 35 elementos
+El cluster 1 ha terminado con: 29 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 20 elementos
+El cluster 4 ha terminado con: 39 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 28 elementos
+
+
+Agregado = 0,536384
+Tasa_inf = 641
+Desviación general particion: 0,240584
+Error_distancia = 0,123707
+Tiempo = 37,2219
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 60 elementos
+El cluster 3 ha terminado con: 51 elementos
+El cluster 4 ha terminado con: 24 elementos
+El cluster 5 ha terminado con: 31 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,253816
+Tasa_inf = 256
+Desviación general particion: 0,13568
+Error_distancia = 0,22861
+Tiempo = 30,171
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 21 elementos
+El cluster 2 ha terminado con: 47 elementos
+El cluster 3 ha terminado con: 32 elementos
+El cluster 4 ha terminado con: 29 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 48 elementos
+
+
+Agregado = 0,26832
+Tasa_inf = 248
+Desviación general particion: 0,153876
+Error_distancia = 0,210414
+Tiempo = 29,6206
+
+
+Ejecutando PAR dataset: GLASS restricciones 10%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 20 elementos
+El cluster 2 ha terminado con: 65 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 30 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 69 elementos
+
+
+Agregado = 0,178919
+Tasa_inf = 82
+Desviación general particion: 0,141078
+Error_distancia = 0,223212
+Tiempo = 34,398
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 31 elementos
+El cluster 3 ha terminado con: 21 elementos
+El cluster 4 ha terminado con: 65 elementos
+El cluster 5 ha terminado con: 69 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,181381
+Tasa_inf = 83
+Desviación general particion: 0,143079
+Error_distancia = 0,221211
+Tiempo = 31,325
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 64 elementos
+El cluster 2 ha terminado con: 63 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 37 elementos
+El cluster 5 ha terminado con: 23 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,179751
+Tasa_inf = 135
+Desviación general particion: 0,117453
+Error_distancia = 0,246838
+Tiempo = 29,614
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 22 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 11 elementos
+El cluster 3 ha terminado con: 28 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 67 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,190185
+Tasa_inf = 107
+Desviación general particion: 0,140808
+Error_distancia = 0,223482
+Tiempo = 31,1756
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 31 elementos
+El cluster 1 ha terminado con: 38 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 34 elementos
+El cluster 4 ha terminado con: 28 elementos
+El cluster 5 ha terminado con: 27 elementos
+El cluster 6 ha terminado con: 34 elementos
+
+
+Agregado = 0,539513
+Tasa_inf = 648
+Desviación general particion: 0,240482
+Error_distancia = 0,123808
+Tiempo = 37,5522
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 25 elementos
+El cluster 1 ha terminado con: 42 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 35 elementos
+El cluster 6 ha terminado con: 42 elementos
+
+
+Agregado = 0,262857
+Tasa_inf = 237
+Desviación general particion: 0,153489
+Error_distancia = 0,210801
+Tiempo = 31,0348
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 21 elementos
+El cluster 2 ha terminado con: 53 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 17 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 67 elementos
+
+
+Agregado = 0,230404
+Tasa_inf = 156
+Desviación general particion: 0,158415
+Error_distancia = 0,205875
+Tiempo = 31,0815
+
+
+Ejecutando par dataset: GLASS restricciones 10%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 66 elementos
+El cluster 1 ha terminado con: 22 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 69 elementos
+El cluster 6 ha terminado con: 8 elementos
+
+
+Agregado = 0,178629
+Tasa_inf = 78
+Desviación general particion: 0,142634
+Error_distancia = 0,221656
+Tiempo = 29,7412
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 67 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 60 elementos
+El cluster 6 ha terminado con: 35 elementos
+
+
+Agregado = 0,185716
+Tasa_inf = 135
+Desviación general particion: 0,123418
+Error_distancia = 0,240872
+Tiempo = 31,001
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 33 elementos
+El cluster 2 ha terminado con: 63 elementos
+El cluster 3 ha terminado con: 63 elementos
+El cluster 4 ha terminado con: 26 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,184176
+Tasa_inf = 156
+Desviación general particion: 0,112187
+Error_distancia = 0,252103
+Tiempo = 28,6467
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 66 elementos
+El cluster 5 ha terminado con: 28 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,183717
+Tasa_inf = 91
+Desviación general particion: 0,141723
+Error_distancia = 0,222567
+Tiempo = 30,6846
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 28 elementos
+El cluster 1 ha terminado con: 30 elementos
+El cluster 2 ha terminado con: 26 elementos
+El cluster 3 ha terminado con: 30 elementos
+El cluster 4 ha terminado con: 30 elementos
+El cluster 5 ha terminado con: 38 elementos
+El cluster 6 ha terminado con: 32 elementos
+
+
+Agregado = 0,533159
+Tasa_inf = 632
+Desviación general particion: 0,241512
+Error_distancia = 0,122779
+Tiempo = 39,1896
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 65 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 50 elementos
+El cluster 3 ha terminado con: 22 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 18 elementos
+
+
+Agregado = 0,240899
+Tasa_inf = 193
+Desviación general particion: 0,151836
+Error_distancia = 0,212455
+Tiempo = 29,5409
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 45 elementos
+El cluster 1 ha terminado con: 60 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 35 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 21 elementos
+
+
+Agregado = 0,242961
+Tasa_inf = 209
+Desviación general particion: 0,146514
+Error_distancia = 0,217776
+Tiempo = 29,368
+
+
+Ejecutando PAR dataset: GLASS restricciones 10%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 26 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 24 elementos
+El cluster 5 ha terminado con: 64 elementos
+El cluster 6 ha terminado con: 70 elementos
+
+
+Agregado = 0,187415
+Tasa_inf = 103
+Desviación general particion: 0,139884
+Error_distancia = 0,224407
+Tiempo = 34,2446
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 31 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 65 elementos
+El cluster 3 ha terminado con: 29 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 62 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,187341
+Tasa_inf = 147
+Desviación general particion: 0,119505
+Error_distancia = 0,244785
+Tiempo = 30,3586
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 63 elementos
+El cluster 3 ha terminado con: 37 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 63 elementos
+El cluster 6 ha terminado con: 23 elementos
+
+
+Agregado = 0,179847
+Tasa_inf = 138
+Desviación general particion: 0,116165
+Error_distancia = 0,248125
+Tiempo = 31,6473
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 67 elementos
+El cluster 5 ha terminado con: 30 elementos
+El cluster 6 ha terminado con: 67 elementos
+
+
+Agregado = 0,181262
+Tasa_inf = 88
+Desviación general particion: 0,140653
+Error_distancia = 0,223638
+Tiempo = 33,9655
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 33 elementos
+El cluster 2 ha terminado con: 31 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 38 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,535611
+Tasa_inf = 670
+Desviación general particion: 0,226427
+Error_distancia = 0,137863
+Tiempo = 36,692
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 27 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 44 elementos
+El cluster 6 ha terminado con: 61 elementos
+
+
+Agregado = 0,253513
+Tasa_inf = 220
+Desviación general particion: 0,15199
+Error_distancia = 0,2123
+Tiempo = 31,4286
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 72 elementos
+El cluster 4 ha terminado con: 20 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 60 elementos
+
+
+Agregado = 0,220945
+Tasa_inf = 114
+Desviación general particion: 0,168337
+Error_distancia = 0,195953
+Tiempo = 31,5531
+
+
+Ejecutando par dataset: GLASS restricciones 10%,,,, semilla: 1
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 67 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 30 elementos
+El cluster 4 ha terminado con: 8 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 23 elementos
+
+
+Agregado = 0,184866
+Tasa_inf = 101
+Desviación general particion: 0,138258
+Error_distancia = 0,226032
+Tiempo = 29,1829
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 38 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 62 elementos
+El cluster 4 ha terminado con: 67 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,183853
+Tasa_inf = 130
+Desviación general particion: 0,123862
+Error_distancia = 0,240429
+Tiempo = 32,0002
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 68 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 67 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,180671
+Tasa_inf = 85
+Desviación general particion: 0,141447
+Error_distancia = 0,222844
+Tiempo = 30,5664
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 27 elementos
+El cluster 3 ha terminado con: 65 elementos
+El cluster 4 ha terminado con: 62 elementos
+El cluster 5 ha terminado con: 33 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,178408
+Tasa_inf = 135
+Desviación general particion: 0,11611
+Error_distancia = 0,248181
+Tiempo = 32,1992
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 26 elementos
+El cluster 2 ha terminado con: 35 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 40 elementos
+
+
+Agregado = 0,53585
+Tasa_inf = 655
+Desviación general particion: 0,233589
+Error_distancia = 0,130701
+Tiempo = 38,9158
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 29 elementos
+El cluster 1 ha terminado con: 45 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 67 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 22 elementos
+El cluster 6 ha terminado con: 33 elementos
+
+
+Agregado = 0,231086
+Tasa_inf = 204
+Desviación general particion: 0,136946
+Error_distancia = 0,227344
+Tiempo = 31,0074
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 30 elementos
+El cluster 2 ha terminado con: 24 elementos
+El cluster 3 ha terminado con: 32 elementos
+El cluster 4 ha terminado con: 66 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 32 elementos
+
+
+Agregado = 0,258037
+Tasa_inf = 212
+Desviación general particion: 0,160206
+Error_distancia = 0,204084
+Tiempo = 30,519
+
+
+Ejecutando par dataset: GLASS restricciones 20%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 59 elementos
+El cluster 3 ha terminado con: 69 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 31 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,189398
+Tasa_inf = 271
+Desviación general particion: 0,123236
+Error_distancia = 0,241054
+Tiempo = 53,7645
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 69 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 66 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,18124
+Tasa_inf = 164
+Desviación general particion: 0,1412
+Error_distancia = 0,22309
+Tiempo = 51,9768
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 59 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 31 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 67 elementos
+
+
+Agregado = 0,190109
+Tasa_inf = 298
+Desviación general particion: 0,117355
+Error_distancia = 0,246935
+Tiempo = 52,4644
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 68 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,183036
+Tasa_inf = 165
+Desviación general particion: 0,142753
+Error_distancia = 0,221538
+Tiempo = 47,1565
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 28 elementos
+El cluster 1 ha terminado con: 29 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 30 elementos
+El cluster 4 ha terminado con: 33 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 30 elementos
+
+
+Agregado = 0,548474
+Tasa_inf = 1270
+Desviación general particion: 0,238415
+Error_distancia = 0,125875
+Tiempo = 64,4182
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 62 elementos
+El cluster 6 ha terminado con: 70 elementos
+
+
+Agregado = 0,211712
+Tasa_inf = 279
+Desviación general particion: 0,143597
+Error_distancia = 0,220693
+Tiempo = 55,3127
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 64 elementos
+El cluster 3 ha terminado con: 35 elementos
+El cluster 4 ha terminado con: 24 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 60 elementos
+
+
+Agregado = 0,215145
+Tasa_inf = 373
+Desviación general particion: 0,124081
+Error_distancia = 0,24021
+Tiempo = 54,1833
+
+
+Ejecutando PAR dataset: GLASS restricciones 20%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 70 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 65 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 18 elementos
+
+
+Agregado = 0,181079
+Tasa_inf = 160
+Desviación general particion: 0,142016
+Error_distancia = 0,222274
+Tiempo = 47,3308
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 65 elementos
+El cluster 6 ha terminado con: 70 elementos
+
+
+Agregado = 0,181167
+Tasa_inf = 161
+Desviación general particion: 0,14186
+Error_distancia = 0,22243
+Tiempo = 53,9724
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 65 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 70 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,180835
+Tasa_inf = 159
+Desviación general particion: 0,142016
+Error_distancia = 0,222274
+Tiempo = 48,858
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 32 elementos
+El cluster 1 ha terminado con: 63 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 63 elementos
+
+
+Agregado = 0,187856
+Tasa_inf = 299
+Desviación general particion: 0,114858
+Error_distancia = 0,249432
+Tiempo = 52,0251
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 26 elementos
+El cluster 1 ha terminado con: 35 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 33 elementos
+El cluster 4 ha terminado con: 35 elementos
+El cluster 5 ha terminado con: 32 elementos
+El cluster 6 ha terminado con: 30 elementos
+
+
+Agregado = 0,545863
+Tasa_inf = 1238
+Desviación general particion: 0,243617
+Error_distancia = 0,120673
+Tiempo = 62,0151
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 69 elementos
+El cluster 3 ha terminado con: 25 elementos
+El cluster 4 ha terminado con: 62 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 20 elementos
+
+
+Agregado = 0,211746
+Tasa_inf = 279
+Desviación general particion: 0,14363
+Error_distancia = 0,22066
+Tiempo = 50,3727
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 35 elementos
+El cluster 2 ha terminado con: 63 elementos
+El cluster 3 ha terminado con: 63 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 24 elementos
+
+
+Agregado = 0,200792
+Tasa_inf = 336
+Desviación general particion: 0,118761
+Error_distancia = 0,245529
+Tiempo = 48,7924
+
+
+Ejecutando par dataset: GLASS restricciones 20%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 28 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 71 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 38 elementos
+
+
+Agregado = 0,225573
+Tasa_inf = 363
+Desviación general particion: 0,136949
+Error_distancia = 0,227341
+Tiempo = 52,5577
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 68 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 67 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,180264
+Tasa_inf = 157
+Desviación general particion: 0,141934
+Error_distancia = 0,222356
+Tiempo = 47,7167
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 27 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 19 elementos
+El cluster 5 ha terminado con: 67 elementos
+El cluster 6 ha terminado con: 68 elementos
+
+
+Agregado = 0,181897
+Tasa_inf = 167
+Desviación general particion: 0,141125
+Error_distancia = 0,223165
+Tiempo = 54,2136
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 69 elementos
+El cluster 2 ha terminado con: 14 elementos
+El cluster 3 ha terminado con: 9 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 66 elementos
+
+
+Agregado = 0,181587
+Tasa_inf = 163
+Desviación general particion: 0,141792
+Error_distancia = 0,222498
+Tiempo = 53,096
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 33 elementos
+El cluster 1 ha terminado con: 32 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 31 elementos
+
+
+Agregado = 0,542952
+Tasa_inf = 1248
+Desviación general particion: 0,238264
+Error_distancia = 0,126026
+Tiempo = 67,7018
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 26 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 21 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 59 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 69 elementos
+
+
+Agregado = 0,23604
+Tasa_inf = 336
+Desviación general particion: 0,154009
+Error_distancia = 0,210281
+Tiempo = 55,4212
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 62 elementos
+El cluster 3 ha terminado con: 26 elementos
+El cluster 4 ha terminado con: 70 elementos
+El cluster 5 ha terminado con: 17 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,197944
+Tasa_inf = 232
+Desviación general particion: 0,141303
+Error_distancia = 0,222987
+Tiempo = 52,4947
+
+
+Ejecutando PAR dataset: GLASS restricciones 20%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 68 elementos
+El cluster 5 ha terminado con: 22 elementos
+El cluster 6 ha terminado con: 11 elementos
+
+
+Agregado = 0,190716
+Tasa_inf = 201
+Desviación general particion: 0,141644
+Error_distancia = 0,222647
+Tiempo = 48,8365
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 67 elementos
+El cluster 4 ha terminado con: 68 elementos
+El cluster 5 ha terminado con: 21 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,18889
+Tasa_inf = 193
+Desviación general particion: 0,14177
+Error_distancia = 0,22252
+Tiempo = 49,5727
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 10 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 63 elementos
+El cluster 6 ha terminado con: 72 elementos
+
+
+Agregado = 0,184343
+Tasa_inf = 174
+Desviación general particion: 0,141862
+Error_distancia = 0,222428
+Tiempo = 55,4097
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 30 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 67 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 68 elementos
+
+
+Agregado = 0,184688
+Tasa_inf = 170
+Desviación general particion: 0,143184
+Error_distancia = 0,221106
+Tiempo = 54,8892
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 31 elementos
+El cluster 1 ha terminado con: 25 elementos
+El cluster 2 ha terminado con: 30 elementos
+El cluster 3 ha terminado con: 28 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 35 elementos
+El cluster 6 ha terminado con: 38 elementos
+
+
+Agregado = 0,55202
+Tasa_inf = 1274
+Desviación general particion: 0,240985
+Error_distancia = 0,123305
+Tiempo = 64,6352
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 67 elementos
+El cluster 2 ha terminado con: 18 elementos
+El cluster 3 ha terminado con: 63 elementos
+El cluster 4 ha terminado con: 22 elementos
+El cluster 5 ha terminado con: 24 elementos
+El cluster 6 ha terminado con: 11 elementos
+
+
+Agregado = 0,21436
+Tasa_inf = 286
+Desviación general particion: 0,144535
+Error_distancia = 0,219755
+Tiempo = 49,3416
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 25 elementos
+El cluster 2 ha terminado con: 47 elementos
+El cluster 3 ha terminado con: 58 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 25 elementos
+El cluster 6 ha terminado con: 33 elementos
+
+
+Agregado = 0,256753
+Tasa_inf = 423
+Desviación general particion: 0,153481
+Error_distancia = 0,210809
+Tiempo = 50,466
+
+
+Ejecutando par dataset: GLASS restricciones 20%,,,, semilla: 1
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 18 elementos
+El cluster 1 ha terminado con: 68 elementos
+El cluster 2 ha terminado con: 67 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 27 elementos
+El cluster 6 ha terminado con: 10 elementos
+
+
+Agregado = 0,182281
+Tasa_inf = 166
+Desviación general particion: 0,141753
+Error_distancia = 0,222537
+Tiempo = 49,865
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 28 elementos
+El cluster 2 ha terminado con: 17 elementos
+El cluster 3 ha terminado con: 66 elementos
+El cluster 4 ha terminado con: 9 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 69 elementos
+
+
+Agregado = 0,182528
+Tasa_inf = 166
+Desviación general particion: 0,142001
+Error_distancia = 0,222289
+Tiempo = 53,9083
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 63 elementos
+El cluster 2 ha terminado con: 32 elementos
+El cluster 3 ha terminado con: 63 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0,190081
+Tasa_inf = 306
+Desviación general particion: 0,115374
+Error_distancia = 0,248916
+Tiempo = 47,8274
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 10 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 64 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 62 elementos
+El cluster 6 ha terminado con: 27 elementos
+
+
+Agregado = 0,186568
+Tasa_inf = 298
+Desviación general particion: 0,113814
+Error_distancia = 0,250476
+Tiempo = 54,964
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 32 elementos
+El cluster 2 ha terminado con: 33 elementos
+El cluster 3 ha terminado con: 32 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 23 elementos
+El cluster 6 ha terminado con: 33 elementos
+
+
+Agregado = 0,5551
+Tasa_inf = 1314
+Desviación general particion: 0,234299
+Error_distancia = 0,129991
+Tiempo = 65,0052
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 24 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 68 elementos
+El cluster 4 ha terminado con: 10 elementos
+El cluster 5 ha terminado con: 65 elementos
+El cluster 6 ha terminado con: 23 elementos
+
+
+Agregado = 0,20441
+Tasa_inf = 248
+Desviación general particion: 0,143863
+Error_distancia = 0,220427
+Tiempo = 52,9331
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 29 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 67 elementos
+El cluster 4 ha terminado con: 15 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 64 elementos
+
+
+Agregado = 0,198376
+Tasa_inf = 234
+Desviación general particion: 0,141248
+Error_distancia = 0,223043
+Tiempo = 53,7416
+
+
+Ejecutando par dataset: BUPA restricciones 10%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 21 elementos
+El cluster 7 ha terminado con: 31 elementos
+El cluster 8 ha terminado con: 12 elementos
+El cluster 9 ha terminado con: 90 elementos
+El cluster 10 ha terminado con: 29 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 23 elementos
+El cluster 13 ha terminado con: 23 elementos
+El cluster 14 ha terminado con: 29 elementos
+El cluster 15 ha terminado con: 29 elementos
+
+
+Agregado = 0,348145
+Tasa_inf = 372
+Desviación general particion: 0,282094
+Error_distancia = 0,0616706
+Tiempo = 121,585
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 24 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 31 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 101 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 17 elementos
+El cluster 10 ha terminado con: 23 elementos
+El cluster 11 ha terminado con: 31 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 32 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 39 elementos
+
+
+Agregado = 0,328425
+Tasa_inf = 327
+Desviación general particion: 0,270364
+Error_distancia = 0,0499401
+Tiempo = 116,851
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 22 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 11 elementos
+El cluster 5 ha terminado con: 37 elementos
+El cluster 6 ha terminado con: 24 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 36 elementos
+El cluster 9 ha terminado con: 103 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 26 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 7 elementos
+
+
+Agregado = 0,320088
+Tasa_inf = 235
+Desviación general particion: 0,278362
+Error_distancia = 0,0579384
+Tiempo = 111,162
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 106 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 26 elementos
+El cluster 6 ha terminado con: 46 elementos
+El cluster 7 ha terminado con: 22 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 22 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 21 elementos
+El cluster 15 ha terminado con: 22 elementos
+
+
+Agregado = 0,3105
+Tasa_inf = 192
+Desviación general particion: 0,276409
+Error_distancia = 0,055985
+Tiempo = 108,452
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 24 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 35 elementos
+El cluster 3 ha terminado con: 10 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 28 elementos
+El cluster 7 ha terminado con: 27 elementos
+El cluster 8 ha terminado con: 15 elementos
+El cluster 9 ha terminado con: 20 elementos
+El cluster 10 ha terminado con: 19 elementos
+El cluster 11 ha terminado con: 18 elementos
+El cluster 12 ha terminado con: 15 elementos
+El cluster 13 ha terminado con: 31 elementos
+El cluster 14 ha terminado con: 24 elementos
+El cluster 15 ha terminado con: 18 elementos
+
+
+Agregado = 0,572929
+Tasa_inf = 1073
+Desviación general particion: 0,38241
+Error_distancia = 0,161987
+Tiempo = 299,352
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 37 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 33 elementos
+El cluster 3 ha terminado con: 7 elementos
+El cluster 4 ha terminado con: 19 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 24 elementos
+El cluster 7 ha terminado con: 28 elementos
+El cluster 8 ha terminado con: 9 elementos
+El cluster 9 ha terminado con: 7 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 24 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 7 elementos
+El cluster 14 ha terminado con: 23 elementos
+El cluster 15 ha terminado con: 20 elementos
+
+
+Agregado = 0,477351
+Tasa_inf = 844
+Desviación general particion: 0,327493
+Error_distancia = 0,107069
+Tiempo = 114,182
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 7 elementos
+El cluster 3 ha terminado con: 20 elementos
+El cluster 4 ha terminado con: 29 elementos
+El cluster 5 ha terminado con: 33 elementos
+El cluster 6 ha terminado con: 19 elementos
+El cluster 7 ha terminado con: 27 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 29 elementos
+El cluster 10 ha terminado con: 18 elementos
+El cluster 11 ha terminado con: 22 elementos
+El cluster 12 ha terminado con: 28 elementos
+El cluster 13 ha terminado con: 38 elementos
+El cluster 14 ha terminado con: 14 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,472371
+Tasa_inf = 835
+Desviación general particion: 0,324111
+Error_distancia = 0,103687
+Tiempo = 114,282
+
+
+Ejecutando PAR dataset: BUPA restricciones 10%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 22 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 86 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 26 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 5 elementos
+El cluster 8 ha terminado con: 31 elementos
+El cluster 9 ha terminado con: 29 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 25 elementos
+El cluster 13 ha terminado con: 25 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 21 elementos
+
+
+Agregado = 0,352687
+Tasa_inf = 405
+Desviación general particion: 0,280776
+Error_distancia = 0,0603526
+Tiempo = 103,114
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 27 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 41 elementos
+El cluster 4 ha terminado con: 18 elementos
+El cluster 5 ha terminado con: 34 elementos
+El cluster 6 ha terminado con: 20 elementos
+El cluster 7 ha terminado con: 37 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 69 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 26 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 9 elementos
+
+
+Agregado = 0,355746
+Tasa_inf = 438
+Desviación general particion: 0,277976
+Error_distancia = 0,0575521
+Tiempo = 109,024
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 22 elementos
+El cluster 1 ha terminado con: 40 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 22 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 24 elementos
+El cluster 6 ha terminado con: 86 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 27 elementos
+El cluster 9 ha terminado con: 31 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 24 elementos
+El cluster 15 ha terminado con: 28 elementos
+
+
+Agregado = 0,339537
+Tasa_inf = 365
+Desviación general particion: 0,274729
+Error_distancia = 0,0543054
+Tiempo = 104,625
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 5 elementos
+El cluster 4 ha terminado con: 20 elementos
+El cluster 5 ha terminado con: 35 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 26 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 7 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 43 elementos
+El cluster 13 ha terminado con: 20 elementos
+El cluster 14 ha terminado con: 104 elementos
+El cluster 15 ha terminado con: 8 elementos
+
+
+Agregado = 0,312652
+Tasa_inf = 215
+Desviación general particion: 0,274478
+Error_distancia = 0,054054
+Tiempo = 117,336
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 29 elementos
+El cluster 5 ha terminado con: 29 elementos
+El cluster 6 ha terminado con: 18 elementos
+El cluster 7 ha terminado con: 27 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 17 elementos
+El cluster 10 ha terminado con: 23 elementos
+El cluster 11 ha terminado con: 28 elementos
+El cluster 12 ha terminado con: 24 elementos
+El cluster 13 ha terminado con: 19 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 19 elementos
+
+
+Agregado = 0,572706
+Tasa_inf = 1081
+Desviación general particion: 0,380767
+Error_distancia = 0,160343
+Tiempo = 281,273
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 32 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 22 elementos
+El cluster 6 ha terminado con: 31 elementos
+El cluster 7 ha terminado con: 16 elementos
+El cluster 8 ha terminado con: 31 elementos
+El cluster 9 ha terminado con: 22 elementos
+El cluster 10 ha terminado con: 33 elementos
+El cluster 11 ha terminado con: 35 elementos
+El cluster 12 ha terminado con: 15 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 18 elementos
+El cluster 15 ha terminado con: 19 elementos
+
+
+Agregado = 0,462471
+Tasa_inf = 832
+Desviación general particion: 0,314744
+Error_distancia = 0,0943203
+Tiempo = 110,204
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 25 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 21 elementos
+El cluster 6 ha terminado con: 19 elementos
+El cluster 7 ha terminado con: 27 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 25 elementos
+El cluster 10 ha terminado con: 25 elementos
+El cluster 11 ha terminado con: 32 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 15 elementos
+El cluster 15 ha terminado con: 28 elementos
+
+
+Agregado = 0,477364
+Tasa_inf = 835
+Desviación general particion: 0,329105
+Error_distancia = 0,108681
+Tiempo = 111,542
+
+
+Ejecutando par dataset: BUPA restricciones 10%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 7 elementos
+El cluster 1 ha terminado con: 7 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 35 elementos
+El cluster 4 ha terminado con: 40 elementos
+El cluster 5 ha terminado con: 105 elementos
+El cluster 6 ha terminado con: 19 elementos
+El cluster 7 ha terminado con: 26 elementos
+El cluster 8 ha terminado con: 16 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 25 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 15 elementos
+
+
+Agregado = 0,32508
+Tasa_inf = 236
+Desviación general particion: 0,283177
+Error_distancia = 0,0627529
+Tiempo = 105,097
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 29 elementos
+El cluster 1 ha terminado con: 20 elementos
+El cluster 2 ha terminado con: 37 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 28 elementos
+El cluster 7 ha terminado con: 34 elementos
+El cluster 8 ha terminado con: 7 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 21 elementos
+El cluster 12 ha terminado con: 67 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 26 elementos
+El cluster 15 ha terminado con: 20 elementos
+
+
+Agregado = 0,371403
+Tasa_inf = 501
+Desviación general particion: 0,282447
+Error_distancia = 0,0620235
+Tiempo = 107,755
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 26 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 29 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 47 elementos
+El cluster 6 ha terminado con: 14 elementos
+El cluster 7 ha terminado con: 105 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 31 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 5 elementos
+
+
+Agregado = 0,306334
+Tasa_inf = 187
+Desviación general particion: 0,273131
+Error_distancia = 0,0527076
+Tiempo = 104,107
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 31 elementos
+El cluster 1 ha terminado con: 41 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 105 elementos
+El cluster 7 ha terminado con: 14 elementos
+El cluster 8 ha terminado con: 24 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 14 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 32 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,316574
+Tasa_inf = 245
+Desviación general particion: 0,273073
+Error_distancia = 0,0526493
+Tiempo = 107,591
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 26 elementos
+El cluster 2 ha terminado con: 17 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 21 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 24 elementos
+El cluster 7 ha terminado con: 20 elementos
+El cluster 8 ha terminado con: 29 elementos
+El cluster 9 ha terminado con: 22 elementos
+El cluster 10 ha terminado con: 20 elementos
+El cluster 11 ha terminado con: 23 elementos
+El cluster 12 ha terminado con: 20 elementos
+El cluster 13 ha terminado con: 22 elementos
+El cluster 14 ha terminado con: 26 elementos
+El cluster 15 ha terminado con: 13 elementos
+
+
+Agregado = 0,574662
+Tasa_inf = 1076
+Desviación general particion: 0,383611
+Error_distancia = 0,163187
+Tiempo = 277,893
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 7 elementos
+El cluster 1 ha terminado con: 23 elementos
+El cluster 2 ha terminado con: 28 elementos
+El cluster 3 ha terminado con: 7 elementos
+El cluster 4 ha terminado con: 22 elementos
+El cluster 5 ha terminado con: 30 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 38 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 11 elementos
+El cluster 10 ha terminado con: 29 elementos
+El cluster 11 ha terminado con: 27 elementos
+El cluster 12 ha terminado con: 26 elementos
+El cluster 13 ha terminado con: 25 elementos
+El cluster 14 ha terminado con: 25 elementos
+El cluster 15 ha terminado con: 20 elementos
+
+
+Agregado = 0,47462
+Tasa_inf = 843
+Desviación general particion: 0,32494
+Error_distancia = 0,104516
+Tiempo = 110,525
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 37 elementos
+El cluster 2 ha terminado con: 28 elementos
+El cluster 3 ha terminado con: 26 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 30 elementos
+El cluster 7 ha terminado con: 32 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 24 elementos
+El cluster 10 ha terminado con: 28 elementos
+El cluster 11 ha terminado con: 14 elementos
+El cluster 12 ha terminado con: 22 elementos
+El cluster 13 ha terminado con: 20 elementos
+El cluster 14 ha terminado con: 17 elementos
+El cluster 15 ha terminado con: 28 elementos
+
+
+Agregado = 0,472707
+Tasa_inf = 862
+Desviación general particion: 0,319653
+Error_distancia = 0,0992297
+Tiempo = 107,947
+
+
+Ejecutando PAR dataset: BUPA restricciones 10%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 102 elementos
+El cluster 3 ha terminado con: 28 elementos
+El cluster 4 ha terminado con: 29 elementos
+El cluster 5 ha terminado con: 30 elementos
+El cluster 6 ha terminado con: 40 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 30 elementos
+El cluster 12 ha terminado con: 10 elementos
+El cluster 13 ha terminado con: 23 elementos
+El cluster 14 ha terminado con: 7 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,326922
+Tasa_inf = 304
+Desviación general particion: 0,272945
+Error_distancia = 0,052521
+Tiempo = 106,985
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 91 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 25 elementos
+El cluster 5 ha terminado con: 5 elementos
+El cluster 6 ha terminado con: 32 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 31 elementos
+El cluster 11 ha terminado con: 20 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 24 elementos
+El cluster 15 ha terminado con: 35 elementos
+
+
+Agregado = 0,344085
+Tasa_inf = 376
+Desviación general particion: 0,277324
+Error_distancia = 0,0568999
+Tiempo = 109,165
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 37 elementos
+El cluster 1 ha terminado con: 105 elementos
+El cluster 2 ha terminado con: 7 elementos
+El cluster 3 ha terminado con: 31 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 35 elementos
+El cluster 7 ha terminado con: 22 elementos
+El cluster 8 ha terminado con: 33 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 28 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 9 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,317249
+Tasa_inf = 272
+Desviación general particion: 0,268954
+Error_distancia = 0,0485302
+Tiempo = 103,93
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 7 elementos
+El cluster 1 ha terminado con: 23 elementos
+El cluster 2 ha terminado con: 21 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 24 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 5 elementos
+El cluster 7 ha terminado con: 30 elementos
+El cluster 8 ha terminado con: 40 elementos
+El cluster 9 ha terminado con: 9 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 106 elementos
+El cluster 12 ha terminado con: 15 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 19 elementos
+
+
+Agregado = 0,320629
+Tasa_inf = 208
+Desviación general particion: 0,283697
+Error_distancia = 0,0632731
+Tiempo = 116,089
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 26 elementos
+El cluster 1 ha terminado con: 27 elementos
+El cluster 2 ha terminado con: 33 elementos
+El cluster 3 ha terminado con: 17 elementos
+El cluster 4 ha terminado con: 20 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 20 elementos
+El cluster 7 ha terminado con: 27 elementos
+El cluster 8 ha terminado con: 16 elementos
+El cluster 9 ha terminado con: 23 elementos
+El cluster 10 ha terminado con: 21 elementos
+El cluster 11 ha terminado con: 19 elementos
+El cluster 12 ha terminado con: 15 elementos
+El cluster 13 ha terminado con: 23 elementos
+El cluster 14 ha terminado con: 21 elementos
+El cluster 15 ha terminado con: 19 elementos
+
+
+Agregado = 0,575798
+Tasa_inf = 1083
+Desviación general particion: 0,383504
+Error_distancia = 0,16308
+Tiempo = 290,793
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 39 elementos
+El cluster 1 ha terminado con: 22 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 35 elementos
+El cluster 4 ha terminado con: 36 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 7 elementos
+El cluster 7 ha terminado con: 26 elementos
+El cluster 8 ha terminado con: 24 elementos
+El cluster 9 ha terminado con: 28 elementos
+El cluster 10 ha terminado con: 21 elementos
+El cluster 11 ha terminado con: 18 elementos
+El cluster 12 ha terminado con: 13 elementos
+El cluster 13 ha terminado con: 21 elementos
+El cluster 14 ha terminado con: 29 elementos
+El cluster 15 ha terminado con: 7 elementos
+
+
+Agregado = 0,485268
+Tasa_inf = 886
+Desviación general particion: 0,327952
+Error_distancia = 0,107528
+Tiempo = 112,972
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 25 elementos
+El cluster 1 ha terminado con: 29 elementos
+El cluster 2 ha terminado con: 34 elementos
+El cluster 3 ha terminado con: 25 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 7 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 25 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 30 elementos
+El cluster 10 ha terminado con: 26 elementos
+El cluster 11 ha terminado con: 10 elementos
+El cluster 12 ha terminado con: 24 elementos
+El cluster 13 ha terminado con: 30 elementos
+El cluster 14 ha terminado con: 29 elementos
+El cluster 15 ha terminado con: 23 elementos
+
+
+Agregado = 0,471242
+Tasa_inf = 860
+Desviación general particion: 0,318543
+Error_distancia = 0,0981194
+Tiempo = 114,921
+
+
+Ejecutando par dataset: BUPA restricciones 10%,,,, semilla: 1
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 23 elementos
+El cluster 2 ha terminado con: 8 elementos
+El cluster 3 ha terminado con: 7 elementos
+El cluster 4 ha terminado con: 86 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 30 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 34 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 28 elementos
+El cluster 12 ha terminado con: 26 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 24 elementos
+El cluster 15 ha terminado con: 26 elementos
+
+
+Agregado = 0,35367
+Tasa_inf = 407
+Desviación general particion: 0,281404
+Error_distancia = 0,0609805
+Tiempo = 116,248
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 29 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 20 elementos
+El cluster 4 ha terminado con: 7 elementos
+El cluster 5 ha terminado con: 97 elementos
+El cluster 6 ha terminado con: 26 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 34 elementos
+El cluster 9 ha terminado con: 25 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 22 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 5 elementos
+El cluster 15 ha terminado con: 26 elementos
+
+
+Agregado = 0,338028
+Tasa_inf = 333
+Desviación general particion: 0,278901
+Error_distancia = 0,0584777
+Tiempo = 110,867
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 5 elementos
+El cluster 2 ha terminado con: 25 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 30 elementos
+El cluster 5 ha terminado con: 9 elementos
+El cluster 6 ha terminado con: 32 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 24 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 23 elementos
+El cluster 13 ha terminado con: 105 elementos
+El cluster 14 ha terminado con: 27 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,309839
+Tasa_inf = 233
+Desviación general particion: 0,268468
+Error_distancia = 0,0480442
+Tiempo = 111,361
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 26 elementos
+El cluster 3 ha terminado con: 31 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 29 elementos
+El cluster 8 ha terminado con: 102 elementos
+El cluster 9 ha terminado con: 31 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 19 elementos
+El cluster 14 ha terminado con: 28 elementos
+El cluster 15 ha terminado con: 31 elementos
+
+
+Agregado = 0,324853
+Tasa_inf = 270
+Desviación general particion: 0,276913
+Error_distancia = 0,0564893
+Tiempo = 106,263
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 21 elementos
+El cluster 1 ha terminado con: 23 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 26 elementos
+El cluster 7 ha terminado con: 14 elementos
+El cluster 8 ha terminado con: 24 elementos
+El cluster 9 ha terminado con: 10 elementos
+El cluster 10 ha terminado con: 27 elementos
+El cluster 11 ha terminado con: 21 elementos
+El cluster 12 ha terminado con: 21 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 26 elementos
+
+
+Agregado = 0,568863
+Tasa_inf = 1067
+Desviación general particion: 0,37941
+Error_distancia = 0,158986
+Tiempo = 277,315
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 27 elementos
+El cluster 7 ha terminado con: 13 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 32 elementos
+El cluster 10 ha terminado con: 27 elementos
+El cluster 11 ha terminado con: 31 elementos
+El cluster 12 ha terminado con: 23 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 12 elementos
+El cluster 15 ha terminado con: 28 elementos
+
+
+Agregado = 0,475845
+Tasa_inf = 810
+Desviación general particion: 0,332024
+Error_distancia = 0,1116
+Tiempo = 110,435
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 7 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 28 elementos
+El cluster 4 ha terminado con: 26 elementos
+El cluster 5 ha terminado con: 8 elementos
+El cluster 6 ha terminado con: 22 elementos
+El cluster 7 ha terminado con: 28 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 24 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 36 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 36 elementos
+El cluster 14 ha terminado con: 26 elementos
+El cluster 15 ha terminado con: 19 elementos
+
+
+Agregado = 0,469623
+Tasa_inf = 794
+Desviación general particion: 0,328643
+Error_distancia = 0,108219
+Tiempo = 109,515
+
+
+Ejecutando par dataset: BUPA restricciones 20%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 21 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 102 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 8 elementos
+El cluster 7 ha terminado con: 42 elementos
+El cluster 8 ha terminado con: 24 elementos
+El cluster 9 ha terminado con: 18 elementos
+El cluster 10 ha terminado con: 18 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 29 elementos
+El cluster 14 ha terminado con: 20 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,341992
+Tasa_inf = 600
+Desviación general particion: 0,286559
+Error_distancia = 0,0661356
+Tiempo = 194,536
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 102 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 27 elementos
+El cluster 6 ha terminado con: 32 elementos
+El cluster 7 ha terminado con: 5 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 33 elementos
+El cluster 10 ha terminado con: 18 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 37 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 27 elementos
+
+
+Agregado = 0,318609
+Tasa_inf = 528
+Desviación general particion: 0,269829
+Error_distancia = 0,049405
+Tiempo = 196,062
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 25 elementos
+El cluster 1 ha terminado con: 104 elementos
+El cluster 2 ha terminado con: 24 elementos
+El cluster 3 ha terminado con: 30 elementos
+El cluster 4 ha terminado con: 7 elementos
+El cluster 5 ha terminado con: 24 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 22 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 43 elementos
+El cluster 14 ha terminado con: 5 elementos
+El cluster 15 ha terminado con: 24 elementos
+
+
+Agregado = 0,312853
+Tasa_inf = 418
+Desviación general particion: 0,274235
+Error_distancia = 0,0538117
+Tiempo = 180,055
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 35 elementos
+El cluster 1 ha terminado con: 24 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 5 elementos
+El cluster 4 ha terminado con: 32 elementos
+El cluster 5 ha terminado con: 7 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 5 elementos
+El cluster 8 ha terminado con: 7 elementos
+El cluster 9 ha terminado con: 102 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 19 elementos
+El cluster 12 ha terminado con: 48 elementos
+El cluster 13 ha terminado con: 20 elementos
+El cluster 14 ha terminado con: 5 elementos
+El cluster 15 ha terminado con: 18 elementos
+
+
+Agregado = 0,308914
+Tasa_inf = 361
+Desviación general particion: 0,275562
+Error_distancia = 0,055138
+Tiempo = 200,167
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 21 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 28 elementos
+El cluster 5 ha terminado con: 23 elementos
+El cluster 6 ha terminado con: 23 elementos
+El cluster 7 ha terminado con: 22 elementos
+El cluster 8 ha terminado con: 20 elementos
+El cluster 9 ha terminado con: 27 elementos
+El cluster 10 ha terminado con: 25 elementos
+El cluster 11 ha terminado con: 20 elementos
+El cluster 12 ha terminado con: 27 elementos
+El cluster 13 ha terminado con: 18 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 18 elementos
+
+
+Agregado = 0,572907
+Tasa_inf = 2077
+Desviación general particion: 0,381018
+Error_distancia = 0,160595
+Tiempo = 484,234
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 28 elementos
+El cluster 1 ha terminado con: 25 elementos
+El cluster 2 ha terminado con: 32 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 25 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 8 elementos
+El cluster 10 ha terminado con: 23 elementos
+El cluster 11 ha terminado con: 18 elementos
+El cluster 12 ha terminado con: 27 elementos
+El cluster 13 ha terminado con: 9 elementos
+El cluster 14 ha terminado con: 33 elementos
+El cluster 15 ha terminado con: 39 elementos
+
+
+Agregado = 0,474386
+Tasa_inf = 1729
+Desviación general particion: 0,314649
+Error_distancia = 0,0942251
+Tiempo = 189,506
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 46 elementos
+El cluster 1 ha terminado con: 12 elementos
+El cluster 2 ha terminado con: 26 elementos
+El cluster 3 ha terminado con: 27 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 31 elementos
+El cluster 8 ha terminado con: 23 elementos
+El cluster 9 ha terminado con: 16 elementos
+El cluster 10 ha terminado con: 18 elementos
+El cluster 11 ha terminado con: 35 elementos
+El cluster 12 ha terminado con: 18 elementos
+El cluster 13 ha terminado con: 21 elementos
+El cluster 14 ha terminado con: 7 elementos
+El cluster 15 ha terminado con: 20 elementos
+
+
+Agregado = 0,47621
+Tasa_inf = 1602
+Desviación general particion: 0,328206
+Error_distancia = 0,107782
+Tiempo = 183,019
+
+
+Ejecutando PAR dataset: BUPA restricciones 20%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 7 elementos
+El cluster 1 ha terminado con: 24 elementos
+El cluster 2 ha terminado con: 25 elementos
+El cluster 3 ha terminado con: 22 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 16 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 20 elementos
+El cluster 12 ha terminado con: 44 elementos
+El cluster 13 ha terminado con: 104 elementos
+El cluster 14 ha terminado con: 28 elementos
+El cluster 15 ha terminado con: 5 elementos
+
+
+Agregado = 0,329026
+Tasa_inf = 556
+Desviación general particion: 0,277659
+Error_distancia = 0,057235
+Tiempo = 205,484
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 5 elementos
+El cluster 1 ha terminado con: 104 elementos
+El cluster 2 ha terminado con: 28 elementos
+El cluster 3 ha terminado con: 5 elementos
+El cluster 4 ha terminado con: 33 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 28 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 24 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 29 elementos
+El cluster 12 ha terminado con: 8 elementos
+El cluster 13 ha terminado con: 16 elementos
+El cluster 14 ha terminado con: 18 elementos
+El cluster 15 ha terminado con: 23 elementos
+
+
+Agregado = 0,340215
+Tasa_inf = 591
+Desviación general particion: 0,285614
+Error_distancia = 0,0651907
+Tiempo = 188,634
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 31 elementos
+El cluster 1 ha terminado con: 46 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 23 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 11 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 23 elementos
+El cluster 10 ha terminado con: 107 elementos
+El cluster 11 ha terminado con: 33 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 24 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,301491
+Tasa_inf = 279
+Desviación general particion: 0,275715
+Error_distancia = 0,055291
+Tiempo = 195,506
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 32 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 7 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 10 elementos
+El cluster 6 ha terminado con: 25 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 14 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 46 elementos
+El cluster 11 ha terminado con: 7 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 20 elementos
+El cluster 14 ha terminado con: 34 elementos
+El cluster 15 ha terminado con: 104 elementos
+
+
+Agregado = 0,31396
+Tasa_inf = 380
+Desviación general particion: 0,278853
+Error_distancia = 0,0584292
+Tiempo = 213,429
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 30 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 21 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 23 elementos
+El cluster 7 ha terminado con: 17 elementos
+El cluster 8 ha terminado con: 23 elementos
+El cluster 9 ha terminado con: 22 elementos
+El cluster 10 ha terminado con: 23 elementos
+El cluster 11 ha terminado con: 28 elementos
+El cluster 12 ha terminado con: 16 elementos
+El cluster 13 ha terminado con: 17 elementos
+El cluster 14 ha terminado con: 26 elementos
+El cluster 15 ha terminado con: 23 elementos
+
+
+Agregado = 0,575933
+Tasa_inf = 2105
+Desviación general particion: 0,381458
+Error_distancia = 0,161034
+Tiempo = 508,715
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 37 elementos
+El cluster 6 ha terminado con: 17 elementos
+El cluster 7 ha terminado con: 24 elementos
+El cluster 8 ha terminado con: 38 elementos
+El cluster 9 ha terminado con: 26 elementos
+El cluster 10 ha terminado con: 12 elementos
+El cluster 11 ha terminado con: 26 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 25 elementos
+El cluster 15 ha terminado con: 33 elementos
+
+
+Agregado = 0,480976
+Tasa_inf = 1709
+Desviación general particion: 0,323086
+Error_distancia = 0,102663
+Tiempo = 203,792
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 38 elementos
+El cluster 1 ha terminado con: 8 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 28 elementos
+El cluster 4 ha terminado con: 26 elementos
+El cluster 5 ha terminado con: 26 elementos
+El cluster 6 ha terminado con: 20 elementos
+El cluster 7 ha terminado con: 32 elementos
+El cluster 8 ha terminado con: 31 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 29 elementos
+El cluster 11 ha terminado con: 37 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 11 elementos
+El cluster 15 ha terminado con: 23 elementos
+
+
+Agregado = 0,48188
+Tasa_inf = 1763
+Desviación general particion: 0,319001
+Error_distancia = 0,0985777
+Tiempo = 198,117
+
+
+Ejecutando par dataset: BUPA restricciones 20%,,,, semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 40 elementos
+El cluster 1 ha terminado con: 24 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 25 elementos
+El cluster 4 ha terminado con: 27 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 17 elementos
+El cluster 7 ha terminado con: 14 elementos
+El cluster 8 ha terminado con: 7 elementos
+El cluster 9 ha terminado con: 17 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 104 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 27 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,332041
+Tasa_inf = 565
+Desviación general particion: 0,279842
+Error_distancia = 0,0594184
+Tiempo = 194,341
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 22 elementos
+El cluster 1 ha terminado con: 5 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 40 elementos
+El cluster 4 ha terminado con: 5 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 18 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 24 elementos
+El cluster 11 ha terminado con: 100 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 29 elementos
+
+
+Agregado = 0,339003
+Tasa_inf = 668
+Desviación general particion: 0,277289
+Error_distancia = 0,0568649
+Tiempo = 204,173
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 28 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 105 elementos
+El cluster 5 ha terminado con: 21 elementos
+El cluster 6 ha terminado con: 47 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 23 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 21 elementos
+El cluster 15 ha terminado con: 29 elementos
+
+
+Agregado = 0,308131
+Tasa_inf = 394
+Desviación general particion: 0,271731
+Error_distancia = 0,051307
+Tiempo = 192,189
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 105 elementos
+El cluster 3 ha terminado con: 47 elementos
+El cluster 4 ha terminado con: 24 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 24 elementos
+El cluster 8 ha terminado con: 33 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 7 elementos
+El cluster 11 ha terminado con: 20 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 33 elementos
+El cluster 15 ha terminado con: 5 elementos
+
+
+Agregado = 0,303718
+Tasa_inf = 338
+Desviación general particion: 0,272491
+Error_distancia = 0,0520675
+Tiempo = 181,318
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 18 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 23 elementos
+El cluster 5 ha terminado con: 15 elementos
+El cluster 6 ha terminado con: 26 elementos
+El cluster 7 ha terminado con: 20 elementos
+El cluster 8 ha terminado con: 23 elementos
+El cluster 9 ha terminado con: 25 elementos
+El cluster 10 ha terminado con: 21 elementos
+El cluster 11 ha terminado con: 19 elementos
+El cluster 12 ha terminado con: 24 elementos
+El cluster 13 ha terminado con: 26 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 26 elementos
+
+
+Agregado = 0,574597
+Tasa_inf = 2110
+Desviación general particion: 0,37966
+Error_distancia = 0,159236
+Tiempo = 514,297
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 5 elementos
+El cluster 1 ha terminado con: 22 elementos
+El cluster 2 ha terminado con: 33 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 28 elementos
+El cluster 5 ha terminado con: 32 elementos
+El cluster 6 ha terminado con: 23 elementos
+El cluster 7 ha terminado con: 28 elementos
+El cluster 8 ha terminado con: 23 elementos
+El cluster 9 ha terminado con: 25 elementos
+El cluster 10 ha terminado con: 37 elementos
+El cluster 11 ha terminado con: 31 elementos
+El cluster 12 ha terminado con: 25 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 15 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,474611
+Tasa_inf = 1776
+Desviación general particion: 0,310531
+Error_distancia = 0,0901071
+Tiempo = 176,027
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 32 elementos
+El cluster 1 ha terminado con: 43 elementos
+El cluster 2 ha terminado con: 28 elementos
+El cluster 3 ha terminado con: 8 elementos
+El cluster 4 ha terminado con: 22 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 20 elementos
+El cluster 7 ha terminado con: 21 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 29 elementos
+El cluster 10 ha terminado con: 17 elementos
+El cluster 11 ha terminado con: 24 elementos
+El cluster 12 ha terminado con: 13 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 14 elementos
+El cluster 15 ha terminado con: 32 elementos
+
+
+Agregado = 0,484528
+Tasa_inf = 1705
+Desviación general particion: 0,327008
+Error_distancia = 0,106584
+Tiempo = 188,29
+
+
+Ejecutando PAR dataset: BUPA restricciones 20%,,,, semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 97 elementos
+El cluster 2 ha terminado con: 20 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 22 elementos
+El cluster 6 ha terminado con: 5 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 27 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 44 elementos
+El cluster 11 ha terminado con: 28 elementos
+El cluster 12 ha terminado con: 31 elementos
+El cluster 13 ha terminado con: 19 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,331326
+Tasa_inf = 599
+Desviación general particion: 0,275986
+Error_distancia = 0,0555618
+Tiempo = 190,621
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 27 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 20 elementos
+El cluster 5 ha terminado con: 30 elementos
+El cluster 6 ha terminado con: 7 elementos
+El cluster 7 ha terminado con: 22 elementos
+El cluster 8 ha terminado con: 35 elementos
+El cluster 9 ha terminado con: 105 elementos
+El cluster 10 ha terminado con: 6 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 6 elementos
+El cluster 13 ha terminado con: 24 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,329303
+Tasa_inf = 515
+Desviación general particion: 0,281723
+Error_distancia = 0,0612995
+Tiempo = 187,793
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 21 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 103 elementos
+El cluster 3 ha terminado con: 33 elementos
+El cluster 4 ha terminado con: 7 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 5 elementos
+El cluster 7 ha terminado con: 41 elementos
+El cluster 8 ha terminado con: 6 elementos
+El cluster 9 ha terminado con: 26 elementos
+El cluster 10 ha terminado con: 21 elementos
+El cluster 11 ha terminado con: 6 elementos
+El cluster 12 ha terminado con: 14 elementos
+El cluster 13 ha terminado con: 11 elementos
+El cluster 14 ha terminado con: 5 elementos
+El cluster 15 ha terminado con: 34 elementos
+
+
+Agregado = 0,317321
+Tasa_inf = 438
+Desviación general particion: 0,276856
+Error_distancia = 0,0564321
+Tiempo = 190,462
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 36 elementos
+El cluster 2 ha terminado con: 7 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 105 elementos
+El cluster 5 ha terminado con: 29 elementos
+El cluster 6 ha terminado con: 46 elementos
+El cluster 7 ha terminado con: 6 elementos
+El cluster 8 ha terminado con: 18 elementos
+El cluster 9 ha terminado con: 5 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 26 elementos
+El cluster 12 ha terminado con: 7 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 20 elementos
+El cluster 15 ha terminado con: 5 elementos
+
+
+Agregado = 0,306131
+Tasa_inf = 345
+Desviación general particion: 0,274257
+Error_distancia = 0,0538337
+Tiempo = 182,754
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 25 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 21 elementos
+El cluster 5 ha terminado con: 26 elementos
+El cluster 6 ha terminado con: 27 elementos
+El cluster 7 ha terminado con: 22 elementos
+El cluster 8 ha terminado con: 31 elementos
+El cluster 9 ha terminado con: 25 elementos
+El cluster 10 ha terminado con: 17 elementos
+El cluster 11 ha terminado con: 19 elementos
+El cluster 12 ha terminado con: 21 elementos
+El cluster 13 ha terminado con: 20 elementos
+El cluster 14 ha terminado con: 16 elementos
+El cluster 15 ha terminado con: 21 elementos
+
+
+Agregado = 0,576426
+Tasa_inf = 2094
+Desviación general particion: 0,382967
+Error_distancia = 0,162543
+Tiempo = 503,656
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 32 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 30 elementos
+El cluster 4 ha terminado con: 25 elementos
+El cluster 5 ha terminado con: 27 elementos
+El cluster 6 ha terminado con: 25 elementos
+El cluster 7 ha terminado con: 25 elementos
+El cluster 8 ha terminado con: 37 elementos
+El cluster 9 ha terminado con: 29 elementos
+El cluster 10 ha terminado con: 5 elementos
+El cluster 11 ha terminado con: 33 elementos
+El cluster 12 ha terminado con: 31 elementos
+El cluster 13 ha terminado con: 10 elementos
+El cluster 14 ha terminado con: 8 elementos
+El cluster 15 ha terminado con: 12 elementos
+
+
+Agregado = 0,480119
+Tasa_inf = 1788
+Desviación general particion: 0,31493
+Error_distancia = 0,0945064
+Tiempo = 197,517
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 21 elementos
+El cluster 1 ha terminado con: 26 elementos
+El cluster 2 ha terminado con: 29 elementos
+El cluster 3 ha terminado con: 35 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 6 elementos
+El cluster 6 ha terminado con: 8 elementos
+El cluster 7 ha terminado con: 25 elementos
+El cluster 8 ha terminado con: 18 elementos
+El cluster 9 ha terminado con: 30 elementos
+El cluster 10 ha terminado con: 19 elementos
+El cluster 11 ha terminado con: 7 elementos
+El cluster 12 ha terminado con: 39 elementos
+El cluster 13 ha terminado con: 26 elementos
+El cluster 14 ha terminado con: 23 elementos
+El cluster 15 ha terminado con: 27 elementos
+
+
+Agregado = 0,475613
+Tasa_inf = 1781
+Desviación general particion: 0,311071
+Error_distancia = 0,0906471
+Tiempo = 189,569
+
+
+Ejecutando par dataset: BUPA restricciones 20%,,,, semilla: 1
+
+AGG-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 5 elementos
+El cluster 2 ha terminado con: 5 elementos
+El cluster 3 ha terminado con: 22 elementos
+El cluster 4 ha terminado con: 86 elementos
+El cluster 5 ha terminado con: 24 elementos
+El cluster 6 ha terminado con: 22 elementos
+El cluster 7 ha terminado con: 7 elementos
+El cluster 8 ha terminado con: 22 elementos
+El cluster 9 ha terminado con: 6 elementos
+El cluster 10 ha terminado con: 33 elementos
+El cluster 11 ha terminado con: 29 elementos
+El cluster 12 ha terminado con: 38 elementos
+El cluster 13 ha terminado con: 19 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,36257
+Tasa_inf = 858
+Desviación general particion: 0,283302
+Error_distancia = 0,0628782
+Tiempo = 199,654
+
+
+AGG-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 12 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 6 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 21 elementos
+El cluster 6 ha terminado con: 18 elementos
+El cluster 7 ha terminado con: 21 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 29 elementos
+El cluster 10 ha terminado con: 45 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 101 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 23 elementos
+El cluster 15 ha terminado con: 35 elementos
+
+
+Agregado = 0,321437
+Tasa_inf = 516
+Desviación general particion: 0,273765
+Error_distancia = 0,053341
+Tiempo = 203,114
+
+
+AGE-SF
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 5 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 105 elementos
+El cluster 4 ha terminado con: 6 elementos
+El cluster 5 ha terminado con: 5 elementos
+El cluster 6 ha terminado con: 6 elementos
+El cluster 7 ha terminado con: 45 elementos
+El cluster 8 ha terminado con: 20 elementos
+El cluster 9 ha terminado con: 19 elementos
+El cluster 10 ha terminado con: 35 elementos
+El cluster 11 ha terminado con: 14 elementos
+El cluster 12 ha terminado con: 5 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 35 elementos
+El cluster 15 ha terminado con: 11 elementos
+
+
+Agregado = 0,304085
+Tasa_inf = 323
+Desviación general particion: 0,274244
+Error_distancia = 0,0538202
+Tiempo = 192,574
+
+
+AGE-UN
+LLamando al algoritmo genetico,,,
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 6 elementos
+El cluster 2 ha terminado con: 34 elementos
+El cluster 3 ha terminado con: 26 elementos
+El cluster 4 ha terminado con: 7 elementos
+El cluster 5 ha terminado con: 7 elementos
+El cluster 6 ha terminado con: 104 elementos
+El cluster 7 ha terminado con: 28 elementos
+El cluster 8 ha terminado con: 5 elementos
+El cluster 9 ha terminado con: 33 elementos
+El cluster 10 ha terminado con: 33 elementos
+El cluster 11 ha terminado con: 5 elementos
+El cluster 12 ha terminado con: 20 elementos
+El cluster 13 ha terminado con: 5 elementos
+El cluster 14 ha terminado con: 6 elementos
+El cluster 15 ha terminado con: 20 elementos
+
+
+Agregado = 0,310092
+Tasa_inf = 418
+Desviación general particion: 0,271474
+Error_distancia = 0,05105
+Tiempo = 190,759
+
+
+AM-(1,1,0)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 21 elementos
+El cluster 1 ha terminado con: 23 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 31 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 26 elementos
+El cluster 7 ha terminado con: 14 elementos
+El cluster 8 ha terminado con: 24 elementos
+El cluster 9 ha terminado con: 10 elementos
+El cluster 10 ha terminado con: 27 elementos
+El cluster 11 ha terminado con: 21 elementos
+El cluster 12 ha terminado con: 21 elementos
+El cluster 13 ha terminado con: 23 elementos
+El cluster 14 ha terminado con: 19 elementos
+El cluster 15 ha terminado con: 27 elementos
+
+
+Agregado = 0,574558
+Tasa_inf = 2113
+Desviación general particion: 0,379344
+Error_distancia = 0,15892
+Tiempo = 490,6
+
+
+AM-(1,0,1)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 6 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 17 elementos
+El cluster 3 ha terminado con: 24 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 23 elementos
+El cluster 6 ha terminado con: 22 elementos
+El cluster 7 ha terminado con: 36 elementos
+El cluster 8 ha terminado con: 36 elementos
+El cluster 9 ha terminado con: 26 elementos
+El cluster 10 ha terminado con: 35 elementos
+El cluster 11 ha terminado con: 7 elementos
+El cluster 12 ha terminado con: 30 elementos
+El cluster 13 ha terminado con: 6 elementos
+El cluster 14 ha terminado con: 25 elementos
+El cluster 15 ha terminado con: 22 elementos
+
+
+Agregado = 0,482136
+Tasa_inf = 1719
+Desviación general particion: 0,323322
+Error_distancia = 0,102899
+Tiempo = 191,531
+
+
+AM-(1,0,1mej)
+LLamando al algoritmo memetico,,,
+Algoritmo Memetico terminado
+El cluster 0 ha terminado con: 27 elementos
+El cluster 1 ha terminado con: 19 elementos
+El cluster 2 ha terminado con: 22 elementos
+El cluster 3 ha terminado con: 25 elementos
+El cluster 4 ha terminado con: 28 elementos
+El cluster 5 ha terminado con: 5 elementos
+El cluster 6 ha terminado con: 20 elementos
+El cluster 7 ha terminado con: 21 elementos
+El cluster 8 ha terminado con: 21 elementos
+El cluster 9 ha terminado con: 28 elementos
+El cluster 10 ha terminado con: 31 elementos
+El cluster 11 ha terminado con: 33 elementos
+El cluster 12 ha terminado con: 21 elementos
+El cluster 13 ha terminado con: 27 elementos
+El cluster 14 ha terminado con: 11 elementos
+El cluster 15 ha terminado con: 6 elementos
+
+
+Agregado = 0,490613
+Tasa_inf = 1714
+Desviación general particion: 0,332262
+Error_distancia = 0,111838
+Tiempo = 187,344
+
+

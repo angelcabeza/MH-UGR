@@ -49,7 +49,6 @@ PAR::PAR(string fichero_datos,string fichero_restricc,int num_clusters,int semil
     }
 
 
-    cout << mayor_distancia << endl;
     LAMBDA = (mayor_distancia) / (restricciones.size()/2.0);
 
     Set_random(semilla);
@@ -384,7 +383,7 @@ double PAR::distanciaEuclidea(const vector<double> & p1, const vector<double> & 
     double distancia = 0.0;
 
     for (int i = 0; i < p1.size(); i++){
-        distancia += pow(p1[i] - p2[i],2);
+        distancia = pow(p1[i] - p2[i],2);
     }
 
     return sqrt(distancia);
@@ -429,9 +428,6 @@ int PAR::buscarClusterContieneElemento(int elemento){
 }
 
 void PAR::calcularAgregado(){
-    //cout << "Desviacion: " << desviacion_general << endl;
-    //cout << "Tasa inf: " << calcularInfeasibilityCluster() << endl;
-    //cout << "Multiplicacion: " << calcularInfeasibilityCluster()*LAMBDA << endl;
     agregadoSol = desviacion_general + calcularInfeasibilityCluster() * LAMBDA;
 }
 
@@ -583,7 +579,7 @@ vector<int> PAR::clustersToSolucion( vector<Cluster> clustersSol) {
 vector<PAR::Cluster> PAR::solucionToClusters(const vector<int> & sol){
     vector<PAR::Cluster> solucion;
 
-    for (int i = 0; i < clusters.size(); i++){
+    for (int i = 0; i < num_clusters; i++){
         solucion.push_back(Cluster((*this)));
     }
 
@@ -606,14 +602,14 @@ vector<pair<vector<int>,double>> PAR::operadorSeleccion(const vector<pair<vector
         int segundo_candidato = RandPositiveInt(poblacion.size());
 
         if(poblacion[primer_candidato].second > poblacion[segundo_candidato].second){
-            poblacion_intermedia.push_back(poblacion[primer_candidato]);
+            poblacion_intermedia.push_back(poblacion[segundo_candidato]);
         }
         else{
-            poblacion_intermedia.push_back(poblacion[segundo_candidato]);
+            poblacion_intermedia.push_back(poblacion[primer_candidato]);
         }
     }
 
-    return poblacion_intermedia;
+    return poblacion_intermedia;    
 }
 
 int PAR::operadorCruceUniforme (vector<pair<vector<int>, double>> & poblacion, const double PROB_CRUCE){
@@ -933,7 +929,7 @@ vector<PAR::Cluster> PAR::AlgGenetico(const int EV_MAX,const int TAM_POB,const d
 
             for (int i = 0; i < poblacion_anterior.size(); i++){
                 if (poblacion_anterior[i].second > poblacion_anterior[indice_peor].second ){
-                    indice_peor = 1;    
+                    indice_peor = i;    
                 }
 
                 if (poblacion_anterior[i].second > poblacion_anterior[indice_segundo_peor].second && indice_segundo_peor != indice_peor){
@@ -959,6 +955,185 @@ vector<PAR::Cluster> PAR::AlgGenetico(const int EV_MAX,const int TAM_POB,const d
                     poblacion_anterior.push_back(poblacion[i]);
 
                     indice_segundo_peor = -1;
+                }
+            }
+        }
+
+        for (int i = 0; i < poblacion_anterior.size(); i++){
+            if (poblacion_anterior[i].second < mejor.second){
+                mejor = poblacion_anterior[i];
+            }
+        }
+
+        generacion++;
+    }
+
+    clusters = solucionToClusters(mejor.first);
+    desviacionGeneralParticion();
+    calcularAgregado();
+
+    return clusters;
+}
+
+int PAR::busquedaLocalSuave(pair<vector<int>,double> & solucion, const int num_fallos_permitidos){
+    int fallos = 0;
+    bool mejora = true;
+    int contador = 0;
+    int evaluaciones = 0;
+
+    vector<int> indices;
+    vector<int> contador_ele_clusters(clusters.size(),0);
+
+    for (int i = 0; i < solucion.first.size(); i++){
+        indices.push_back(i);
+        contador_ele_clusters[solucion.first[i]]++;
+    }
+
+    random_shuffle(indices.begin(), indices.end(), RandPositiveInt);
+
+    clusters = solucionToClusters(solucion.first);
+    desviacionGeneralParticion();
+    calcularAgregado();
+
+    pair<vector<int>,double> solucion_intermedia;
+
+    double val_mejor_cluster;
+    int mejor_cluster;
+
+
+    while ( (mejora || fallos < num_fallos_permitidos) && contador < solucion.first.size()){
+        mejora = false;
+        mejor_cluster = -1;
+
+        val_mejor_cluster = solucion.second;
+        solucion_intermedia = solucion;
+
+        for (int i = 0; i < num_clusters; i++){
+            if(solucion.first[indices[i]] != i && contador_ele_clusters[solucion.first[indices[i]]] -1 > 0){
+
+                solucion_intermedia.first[indices[i]] = i;
+
+                clusters = solucionToClusters(solucion_intermedia.first);
+                desviacionGeneralParticion();
+                calcularAgregado();
+                solucion_intermedia.second = getAgregado();
+                evaluaciones++;
+
+                if (solucion_intermedia.second < val_mejor_cluster){
+                    mejor_cluster = i;
+                    val_mejor_cluster = solucion_intermedia.second;
+                    mejora = true;
+                }
+            }
+        }
+
+        if (!mejora){
+            fallos++;
+        }
+        else{
+            contador_ele_clusters[solucion.first[indices[contador]]]--;
+            solucion.first[indices[contador]] = mejor_cluster;
+            solucion.second = val_mejor_cluster;
+            contador_ele_clusters[mejor_cluster]++;
+        }
+
+        contador++;
+
+    }
+
+    return evaluaciones;
+
+}
+
+vector<PAR::Cluster> PAR::AlgMemetico(const int EV_MAX, const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE,bool elitismo,tipo_memetico memetico){
+    // Generamos la población inical
+    vector<vector<int>> p = generarPoblacionInicial(TAM_POB);
+
+    // Variables donde guardaremos la población actual y la anterior
+    vector<pair<vector<int>, double>> poblacion;
+    vector<pair<vector<int>,double>> poblacion_anterior;
+
+    poblacion.resize(p.size());
+
+    // Inicializamos la poblacion a la población inicial
+    // y guardamos el valor de la función objetivo
+    for (int i = 0; i < poblacion.size(); i++){
+        poblacion[i].first = p[i];
+        clusters = solucionToClusters(poblacion[i].first);
+        desviacionGeneralParticion();
+        calcularAgregado();
+        poblacion[i].second = getAgregado();
+    }
+
+    poblacion_anterior = poblacion;
+    pair<vector<int>,double> mejor = poblacion[0];
+
+    int indice_peor = 0;
+
+    // Guardamos el mejor cromosoma
+    for (int i = 0; i < poblacion.size(); i++){
+        if(poblacion[i].second < mejor.second){
+            mejor = poblacion[i];
+        }
+    }
+
+    int generacion = 0;
+    int evaluaciones = 0;
+
+    while (evaluaciones < EV_MAX){
+        // Solo vamos a usar el modelo generacional
+        poblacion = operadorSeleccion(poblacion_anterior, poblacion_anterior.size());
+
+        // OPERADOR DE CRUCE SEGMENTO FIJO (el que mejor resultados nos ha dado)
+        evaluaciones += operadorCruceSegmentoFijo(poblacion,PROB_CRUCE);
+
+        // OPERADOR DE MUTACIÓN
+        evaluaciones += operadorMutacion(poblacion,PROB_MUT,tipo_generacion::GENERACIONAL);
+
+        // REEMPLAZAMIENTO DE LA POBLACION
+        //Buscamos el mejor de la iteración pasada
+        auto pos_mejor = find(poblacion.begin(),poblacion.end(), mejor);
+
+        // si no esta lo añadimos
+        if (pos_mejor == poblacion.end()){
+            poblacion.pop_back();
+            poblacion.push_back(mejor);
+        }
+
+        poblacion_anterior = poblacion;
+
+        // Cada 10 generaciones aplicamos BL-Suave
+        if (generacion % 10 == 0){
+            const int EV_BL = 100000;
+            if (memetico == tipo_memetico::M_110){
+                for (int i = 0; i < poblacion_anterior.size(); i++){
+                    evaluaciones += busquedaLocalSuave(poblacion_anterior[i],EV_BL);
+                }
+            }
+            else if (memetico == tipo_memetico::M_101){
+                const int NUM_BL = 0.1 * poblacion_anterior.size();
+
+                for (int i = 0; i < NUM_BL; i++){
+                    evaluaciones += busquedaLocalSuave(poblacion_anterior[i],0.1*poblacion_anterior[i].first.size());
+                }
+            }
+            else{
+                const int NUM_MEJORES = 0.1 * poblacion_anterior.size();
+                set<int> indices_mejores;
+
+                for (int i = 0; i < NUM_MEJORES; i++){
+                    int indice_mejor = 0;
+                    for (int j = 0; j < poblacion_anterior.size(); j++){
+                        if (poblacion_anterior[indice_mejor].second > poblacion_anterior[j].second && indices_mejores.find(j) == indices_mejores.end()){
+                            indice_mejor = j;
+                        }
+                    }
+
+                    indices_mejores.insert(indice_mejor);
+                }
+
+                for (auto it = indices_mejores.begin(); it != indices_mejores.end(); ++it){
+                    evaluaciones += busquedaLocalSuave(poblacion_anterior[(*it)], 0.1*poblacion_anterior[(*it)].first.size());
                 }
             }
         }

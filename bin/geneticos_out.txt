@@ -1,0 +1,295 @@
+Ejecutando par dataset: ZOO restricciones 10%, semilla: 513
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 15 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 13 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 20 elementos
+El cluster 6 ha terminado con: 14 elementos
+
+
+Agregado = 0.700347
+Tasa_inf = 133
+Desviación general particion: 0.426684
+Error_distancia = 0.478116
+Tiempo = 6.18175
+
+
+AGG-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 6 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 12 elementos
+El cluster 5 ha terminado con: 8 elementos
+El cluster 6 ha terminado con: 37 elementos
+
+
+Agregado = 0.67754
+Tasa_inf = 150
+Desviación general particion: 0.368898
+Error_distancia = 0.535902
+Tiempo = 5.9693
+
+
+AGE-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 9 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 13 elementos
+
+
+Agregado = 0.144089
+Tasa_inf = 50
+Desviación general particion: 0.0412088
+Error_distancia = 0.863591
+Tiempo = 5.95605
+
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 16 elementos
+El cluster 1 ha terminado con: 13 elementos
+El cluster 2 ha terminado con: 10 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 20 elementos
+
+
+Agregado = 0.152998
+Tasa_inf = 57
+Desviación general particion: 0.0357143
+Error_distancia = 0.869086
+Tiempo = 6.38407
+
+
+Ejecutando PAR dataset: ZOO restricciones 10%, semilla: 1000
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 8 elementos
+El cluster 3 ha terminado con: 12 elementos
+El cluster 4 ha terminado con: 11 elementos
+El cluster 5 ha terminado con: 21 elementos
+El cluster 6 ha terminado con: 20 elementos
+
+
+Agregado = 0.673214
+Tasa_inf = 140
+Desviación general particion: 0.385148
+Error_distancia = 0.519652
+Tiempo = 5.75614
+
+
+AGG-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 9 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 23 elementos
+El cluster 3 ha terminado con: 19 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 9 elementos
+
+
+Agregado = 0.657485
+Tasa_inf = 131
+Desviación general particion: 0.387938
+Error_distancia = 0.516862
+Tiempo = 4.79272
+
+
+AGE-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 13 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 14 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0.165344
+Tasa_inf = 63
+Desviación general particion: 0.0357143
+Error_distancia = 0.869086
+Tiempo = 5.80428
+
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 14 elementos
+El cluster 1 ha terminado con: 16 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 16 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0.150941
+Tasa_inf = 56
+Desviación general particion: 0.0357143
+Error_distancia = 0.869086
+Tiempo = 5.91636
+
+
+Ejecutando par dataset: ZOO restricciones 10%..., semilla: 24
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 8 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 20 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 15 elementos
+
+
+Agregado = 0.697232
+Tasa_inf = 145
+Desviación general particion: 0.398878
+Error_distancia = 0.505922
+Tiempo = 5.88331
+
+
+AGG-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 9 elementos
+El cluster 2 ha terminado con: 11 elementos
+El cluster 3 ha terminado con: 14 elementos
+El cluster 4 ha terminado con: 18 elementos
+El cluster 5 ha terminado con: 18 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0.67652
+Tasa_inf = 133
+Desviación general particion: 0.402857
+Error_distancia = 0.501943
+Tiempo = 4.84324
+
+
+AGE-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 15 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 16 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0.193489
+Tasa_inf = 68
+Desviación general particion: 0.0535714
+Error_distancia = 0.851228
+Tiempo = 5.67617
+
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 13 elementos
+El cluster 1 ha terminado con: 14 elementos
+El cluster 2 ha terminado con: 15 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 14 elementos
+El cluster 5 ha terminado con: 13 elementos
+El cluster 6 ha terminado con: 16 elementos
+
+
+Agregado = 0.165344
+Tasa_inf = 63
+Desviación general particion: 0.0357143
+Error_distancia = 0.869086
+Tiempo = 6.15347
+
+
+Ejecutando PAR dataset: ZOO restricciones 10%..., semilla: 345
+
+AGG-UN
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 20 elementos
+El cluster 1 ha terminado con: 15 elementos
+El cluster 2 ha terminado con: 12 elementos
+El cluster 3 ha terminado con: 17 elementos
+El cluster 4 ha terminado con: 13 elementos
+El cluster 5 ha terminado con: 12 elementos
+El cluster 6 ha terminado con: 12 elementos
+
+
+Agregado = 0.682165
+Tasa_inf = 130
+Desviación general particion: 0.414675
+Error_distancia = 0.490125
+Tiempo = 5.1867
+
+
+AGG-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 19 elementos
+El cluster 1 ha terminado con: 11 elementos
+El cluster 2 ha terminado con: 19 elementos
+El cluster 3 ha terminado con: 18 elementos
+El cluster 4 ha terminado con: 7 elementos
+El cluster 5 ha terminado con: 19 elementos
+El cluster 6 ha terminado con: 8 elementos
+
+
+Agregado = 0.651225
+Tasa_inf = 120
+Desviación general particion: 0.404312
+Error_distancia = 0.500488
+Tiempo = 5.00985
+
+
+AGE-SF
+LLamando al algoritmo genetico...
+Algoritmo Genetico terminado
+El cluster 0 ha terminado con: 11 elementos
+El cluster 1 ha terminado con: 17 elementos
+El cluster 2 ha terminado con: 16 elementos
+El cluster 3 ha terminado con: 16 elementos
+El cluster 4 ha terminado con: 17 elementos
+El cluster 5 ha terminado con: 7 elementos
+El cluster 6 ha terminado con: 17 elementos
+
+
+Agregado = 0.169891
+Tasa_inf = 55
+Desviación general particion: 0.0567227
+Error_distancia = 0.848077
+Tiempo = 5.72237
+
+
+AGG-UN
+LLamando al algoritmo genetico...

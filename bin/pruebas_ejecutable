@@ -1,0 +1,125 @@
+#!/bin/bash
+
+# EJECUCIONES DE ZOO PARA 10% RESTRICCIONES
+echo -e "Ejecutando par dataset: ZOO restricciones 10%, semilla: 513\n"
+./par ./zoo_set.dat ./zoo_set_const_10.const 7 513 0.904799856193481
+
+
+echo -e "Ejecutando PAR dataset: ZOO restricciones 10%, semilla: 1000\n"
+./par ./zoo_set.dat ./zoo_set_const_10.const 7 1000 0.904799856193481
+
+
+
+echo -e "Ejecutando par dataset: ZOO restricciones 10%..., semilla: 24\n"
+./par ./zoo_set.dat ./zoo_set_const_10.const 7 24 0.904799856193481
+
+
+
+echo -e "Ejecutando PAR dataset: ZOO restricciones 10%..., semilla: 345\n"
+./par ./zoo_set.dat ./zoo_set_const_10.const 7 345 0.904799856193481
+
+
+echo "Ejecutando par dataset: ZOO restricciones 10%..., semilla: 1\n"
+./par ./zoo_set.dat ./zoo_set_const_10.const 7 1 0.904799856193481
+
+
+#############################################################################
+# EJECUCIONES ZOO 20% RESTRICCIONES
+
+echo -e "Ejecutando par dataset: ZOO restricciones 20%, semilla: 513\n"
+./par ./zoo_set.dat ./zoo_set_const_20.const 7 513 0.904799856193481
+
+
+echo -e "Ejecutando PAR dataset: ZOO restricciones 20%, semilla: 1000\n"
+./par ./zoo_set.dat ./zoo_set_const_20.const 7 1000 0.904799856193481
+
+
+echo -e "Ejecutando par dataset: ZOO restricciones 20%..., semilla: 24\n"
+./par ./zoo_set.dat ./zoo_set_const_20.const 7 24 0.904799856193481
+
+
+
+echo -e "Ejecutando PAR dataset: ZOO restricciones 20%..., semilla: 345\n"
+./par ./zoo_set.dat ./zoo_set_const_20.const 7 345 0.904799856193481
+
+
+echo -e "Ejecutando par dataset: ZOO restricciones 20%..., semilla: 1\n"
+./par ./zoo_set.dat ./zoo_set_const_20.const 7 1 0.904799856193481
+
+
+##############################################################################
+# EJECUCIONES GLASS 10% RESTRICCIONES
+
+echo -e "Ejecutando par dataset: GLASS restricciones 10%, semilla: 513\n"
+./par ./glass_set.dat ./glass_set_const_10.const 7 513 0.364290281975566
+
+
+echo -e "Ejecutando PAR dataset: GLASS restricciones 10%, semilla: 1000\n"
+./par ./glass_set.dat ./glass_set_const_10.const 7 1000 0.364290281975566
+
+
+echo -e "Ejecutando par dataset: GLASS restricciones 10%..., semilla: 24\n"
+./par ./glass_set.dat ./glass_set_const_10.const 7 24 0.364290281975566
+
+
+echo -e "Ejecutando PAR dataset: GLASS restricciones 10%..., semilla: 345\n"
+./par ./glass_set.dat ./glass_set_const_10.const 7 345 0.364290281975566
+
+
+echo -e "Ejecutando par dataset: GLASS restricciones 10%..., semilla: 1\n"
+./par ./glass_set.dat ./glass_set_const_10.const 7 1 0.364290281975566
+
+###############################################################################
+# EJECUCIONES GLASS 20% RESTRICCIONES
+
+echo -e "Ejecutando par dataset: GLASS restricciones 20%, semilla: 513\n"
+./par ./glass_set.dat ./glass_set_const_20.const 7 513 0.364290281975566
+
+
+echo -e "Ejecutando PAR dataset: GLASS restricciones 20%, semilla: 1000\n"
+./par ./glass_set.dat ./glass_set_const_20.const 7 1000 0.364290281975566
+
+
+echo -e "Ejecutando par dataset: GLASS restricciones 20%..., semilla: 24\n"
+./par ./glass_set.dat ./glass_set_const_20.const 7 24 0.364290281975566
+
+echo -e "Ejecutando PAR dataset: GLASS restricciones 20%..., semilla: 345\n"
+./par ./glass_set.dat ./glass_set_const_20.const 7 345 0.364290281975566
+
+echo -e "Ejecutando par dataset: GLASS restricciones 20%..., semilla: 1\n"
+./par ./glass_set.dat ./glass_set_const_20.const 7 1 0.364290281975566
+
+#########################################################################
+# EJECUCIONES BUPA 10% RESTRICCIONES
+echo -e "Ejecutando par dataset: BUPA restricciones 10%, semilla: 513\n"
+./par ./bupa_set.dat ./bupa_set_const_10.const 16 513 0.220423749236421
+
+echo -e "Ejecutando PAR dataset: BUPA restricciones 10%, semilla: 1000\n"
+./par ./bupa_set.dat ./bupa_set_const_10.const 16 1000 0.220423749236421
+
+
+echo -e "Ejecutando par dataset: BUPA restricciones 10%..., semilla: 24\n"
+./par ./bupa_set.dat ./bupa_set_const_10.const 16 24 0.220423749236421
+
+echo -e "Ejecutando PAR dataset: BUPA restricciones 10%..., semilla: 345\n"
+./par ./bupa_set.dat ./bupa_set_const_10.const 16 345 0.220423749236421
+
+echo -e "Ejecutando par dataset: BUPA restricciones 10%..., semilla: 1\n"
+./par ./bupa_set.dat ./bupa_set_const_10.const 16 1 0.220423749236421
+
+######################################################################
+# EJECUCIONES BUPA 20% RESTRICCIONES
+echo -e "Ejecutando par dataset: BUPA restricciones 20%, semilla: 513\n"
+./par ./bupa_set.dat ./bupa_set_const_20.const 16 513 0.220423749236421
+
+echo -e "Ejecutando PAR dataset: BUPA restricciones 20%, semilla: 1000\n"
+./par ./bupa_set.dat ./bupa_set_const_20.const 16 1000 0.220423749236421
+
+echo -e "Ejecutando par dataset: BUPA restricciones 20%..., semilla: 24\n"
+./par ./bupa_set.dat ./bupa_set_const_20.const 16 24 0.220423749236421
+
+echo -e "Ejecutando PAR dataset: BUPA restricciones 20%..., semilla: 345\n"
+./par ./bupa_set.dat ./bupa_set_const_20.const 16 345 0.220423749236421
+
+echo -e "Ejecutando par dataset: BUPA restricciones 20%..., semilla: 1\n"
+./par ./bupa_set.dat ./bupa_set_const_20.const 16 1 0.220423749236421
