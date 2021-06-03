@@ -476,7 +476,7 @@ vector<PAR::Cluster> PAR::generarSolucionAleatoria(int num_clusters){
     return sol;
 }
 
-vector<PAR::Cluster> PAR::BusquedaLocal(vector<PAR::Cluster> & sol_ini,const int MAX_ITER){
+pair<vector<PAR::Cluster>,double> PAR::BusquedaLocal(vector<PAR::Cluster> & sol_ini,const int MAX_ITER){
 
     clusters = sol_ini;
     desviacionGeneralParticion();
@@ -552,7 +552,10 @@ vector<PAR::Cluster> PAR::BusquedaLocal(vector<PAR::Cluster> & sol_ini,const int
     desviacionGeneralParticion();
     calcularAgregado();
 
-    return clusters;
+    pair<vector<PAR::Cluster>,double> solucion;
+    solucion.first = clusters;
+    solucion.second = getAgregado();
+    return solucion;
 }
 
 // PRÁCTICA 2
@@ -1153,6 +1156,232 @@ vector<PAR::Cluster> PAR::AlgMemetico(const int EV_MAX, const int TAM_POB,const 
 
     return clusters;
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// PRACTICA 3
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+pair<vector<PAR::Cluster>,double> PAR::EnfriamientoSimulado(const vector<PAR::Cluster> & ini, const unsigned TOPE_EVALUACIONES, const double prob_sea_peor, const double prob_aceptar_peor){
+
+    clusters = ini;
+    desviacionGeneralParticion();
+    calcularAgregado();
+    pair<pair<vector<PAR::Cluster>, double>,int> solucion_actual = make_pair(make_pair(ini,getAgregado()) , calcularInfeasibilityCluster() );
+    pair<pair<vector<PAR::Cluster>, double>,int> mejor_solucion = solucion_actual;
+    pair<pair<vector<PAR::Cluster>, double>,int> vecino;
+
+    const int MAX_VECINOS = 10 * datos.size();
+    const int MAX_EXITOS = 0.1 * MAX_VECINOS;
+
+    const double NUM_ENFRIAMIENTOS_M = TOPE_EVALUACIONES / MAX_VECINOS;
+    
+    int evaluaciones = 0;
+    int num_enfriamiento = 0;
+
+    const double TEMPERATURA_INICIAL = (prob_sea_peor * solucion_actual.first.second) / -log(prob_aceptar_peor);
+    const double TEMPERATURA_FINAL = 0.001;
+
+    double temperatura = TEMPERATURA_INICIAL;
+
+    int num_vecinos = 1;
+    int exitos = 1;
+
+    while(evaluaciones < TOPE_EVALUACIONES && exitos != 0 && temperatura > TEMPERATURA_FINAL){
+        num_vecinos = 0;
+        exitos = 0;
+
+        while(num_vecinos < MAX_VECINOS && exitos < MAX_EXITOS){
+
+            vecino = generar_vecino_es(solucion_actual);
+            
+            evaluaciones++;
+            num_vecinos++;
+
+            double diferencia = vecino.first.second - solucion_actual.first.second;
+
+            if (diferencia < 0 || Rand() <= exp(-diferencia/temperatura)){
+                solucion_actual = vecino;
+                exitos++;
+
+                if (solucion_actual.first.second < mejor_solucion.first.second){
+                    mejor_solucion = solucion_actual;
+                }
+            }
+        }
+
+        temperatura = esquema_enfriamiento(temperatura, TEMPERATURA_INICIAL, TEMPERATURA_FINAL, NUM_ENFRIAMIENTOS_M,num_enfriamiento);
+        num_enfriamiento++;
+    }
+
+    clusters = mejor_solucion.first.first;
+    desviacionGeneralParticion();
+    calcularAgregado();
+    pair<vector<PAR::Cluster>,double> solucion;
+    solucion.first = clusters;
+    solucion.second = getAgregado();
+    return solucion;
+}
+
+
+double PAR::esquema_enfriamiento(const double temperatura, const double temperatura_inicial, const double temperatura_final, const double M, const int num_enfriamiento) const{
+    double nuevo_valor = temperatura * 0.92;
+    const double BETA = (temperatura_inicial - temperatura_final) / (M * temperatura_inicial * temperatura_final);
+
+    nuevo_valor = temperatura / (1 + BETA * temperatura);
+
+    return nuevo_valor;
+}
+
+pair<pair<vector<PAR::Cluster>,double>,int> PAR::generar_vecino_es(const pair<pair<vector<PAR::Cluster>,double>,int> & ini){
+
+    pair<pair<vector<PAR::Cluster>, double>,int> vecino = ini;
+
+    bool vecino_valido = false;
+
+    clusters = vecino.first.first;
+
+    do{
+        int elemento_cambiar = RandPositiveInt(datos.size());
+
+        int num_cluster = buscarClusterContieneElemento(elemento_cambiar);
+
+        if (vecino.first.first[num_cluster].getPuntos().size() -1 > 0){
+            int nuevo_cluster;
+            
+            do{
+                nuevo_cluster = RandPositiveInt(num_clusters);
+            }while (nuevo_cluster == num_cluster);
+
+            vecino.first.first[num_cluster].eliminarElemento(elemento_cambiar);
+
+            vecino.second -= calcularInfeasibility(elemento_cambiar,num_cluster);
+            vecino.second += calcularInfeasibility(elemento_cambiar, nuevo_cluster);
+
+            vecino.first.first[nuevo_cluster].aniadirElemento(elemento_cambiar);
+            
+            clusters = vecino.first.first;
+            desviacionGeneralParticion();
+            vecino.first.second = desviacion_general + (vecino.second * LAMBDA);
+
+            vecino_valido = true;
+        }
+    } while (!vecino_valido);
+
+    return vecino;
+}
+
+vector<PAR::Cluster> PAR::BMB(const int num_soluciones,const int num_ite_solucion){
+
+    vector<PAR::Cluster> solucion;
+
+    pair<vector<Cluster>,double> mejor;
+    mejor.second = 999999;
+
+    for (int i = 0; i < num_soluciones; i++){
+        solucion = generarSolucionAleatoria(num_clusters);
+        int iteraciones = num_ite_solucion;
+        auto sol_i = BusquedaLocal(solucion,iteraciones);
+
+        if ( sol_i.second < mejor.second){
+            mejor = sol_i;
+        }
+    }
+
+    clusters = mejor.first;
+    calcularAgregado();
+    return clusters;
+}
+
+vector<PAR::Cluster> PAR::ILS (const vector<PAR::Cluster> & ini, const int IT_BL, const int IT_ILS, const double cambio_mutacion, bool enfriamiento_simulado){
+    clusters = ini;
+    desviacionGeneralParticion();
+    calcularAgregado();
+    pair<vector<PAR::Cluster>,double> sol_ini = std::make_pair(ini,getAgregado());
+
+    pair<vector<PAR::Cluster>, double> mejor_sol = sol_ini;
+
+    int iteraciones_BL = IT_BL;
+
+    int iteraciones = 0;
+
+    if(enfriamiento_simulado){
+        sol_ini = EnfriamientoSimulado(sol_ini.first, iteraciones_BL,0.3,0.3);
+    }
+    else{
+        sol_ini = BusquedaLocal(sol_ini.first, iteraciones_BL);
+    }
+    
+    iteraciones++;
+
+    if(sol_ini.second < mejor_sol.second){
+        mejor_sol = sol_ini;
+    }
+
+    while(iteraciones < IT_ILS){
+        sol_ini = operadorMutacionSegmentoFijo(mejor_sol,cambio_mutacion);
+
+        iteraciones_BL = IT_BL;
+
+        if(enfriamiento_simulado){
+        sol_ini = EnfriamientoSimulado(sol_ini.first, iteraciones_BL,0.3,0.3);
+        }
+        else{
+            sol_ini = BusquedaLocal(sol_ini.first, iteraciones_BL);
+        }
+
+        if(sol_ini.second < mejor_sol.second){
+            mejor_sol = sol_ini;
+        }
+
+        iteraciones++;
+    }
+
+    clusters = mejor_sol.first;
+    desviacionGeneralParticion();
+    calcularAgregado();
+
+    return clusters;
+}
+
+pair<vector<PAR::Cluster>,double> PAR::operadorMutacionSegmentoFijo (const pair<vector<PAR::Cluster>,double> & ini,const double porcentaje_cambiar){
+
+    vector<int> original = clustersToSolucion(ini.first);
+    vector<int> mutacion = original;
+    vector<PAR::Cluster> solucion;
+    vector<int> contador(num_clusters,0);
+
+    for (int i = 0; i < original.size(); i++){
+        contador[original[i]]++;
+    }
+
+    int INI_SEGMENTO = RandPositiveInt(original.size());
+
+    int TAM_SEGMENTO = original.size() * porcentaje_cambiar;
+
+    int nuevo_cluster = -1;
+
+    for (int i = INI_SEGMENTO; i < ((INI_SEGMENTO + TAM_SEGMENTO -1) % original.size()); i++){
+
+        do{
+            nuevo_cluster = RandPositiveInt(num_clusters);
+        }while(nuevo_cluster == original[i] && contador[original[i]] -1 > 0);
+
+        contador[original[i]]--;
+        mutacion[i] = nuevo_cluster;
+        contador[nuevo_cluster]++;
+    }
+
+    solucion = solucionToClusters(mutacion);
+    clusters = solucion;
+    desviacionGeneralParticion();
+    calcularAgregado();
+    return make_pair(solucion,getAgregado());
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // CLASE CLUSTER
 
 PAR::Cluster::Cluster(PAR & P){

@@ -82,7 +82,7 @@ int main (int argc , char * argv[]){
     cout << "Error_distancia = " << abs(problema_BL.getDesviacionGeneralParticion() - distancia_optima) << endl;
 
     cout << "Tiempo = " << tiempo << endl << endl << endl;
-    */
+    
 
     cout << "AGG-UN" << endl;
 
@@ -303,9 +303,144 @@ int main (int argc , char * argv[]){
 
     cout << "Error_distancia = " << abs(problema_AM_101_mej.getDesviacionGeneralParticion() - distancia_optima) << endl;
 
+    cout << "Tiempo = " << tiempo << endl << endl << endl;*/
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    cout << "Enfriamiento Simulado" << endl;
+
+    clusters.clear();
+
+    pair<vector<PAR::Cluster>,double> solucion;
+    double tiempo = 0;
+
+    PAR problema_ES(datos,restricciones,num_clusters,semilla);
+    cout << "LLamando al algoritmo enfriamiento simulado..." << endl;
+
+    start_timers();
+    solucion = problema_ES.EnfriamientoSimulado(problema_ES.generarSolucionAleatoria(num_clusters),100000,0.3,0.3);
+    tiempo = elapsed_time();
+
+    cout << "Algoritmo Enfriamiento Simulado terminado" << endl;
+
+    for (int i = 0; i < solucion.first.size(); i++){
+        cout << "El cluster " << i << " ha terminado con: " << solucion.first[i].getPuntos().size() << " elementos" << endl;
+    }
+
+    cout << endl << endl;
+
+    cout << "Agregado = " << solucion.second << endl;
+
+    cout << "Tasa_inf = " << problema_ES.calcularInfeasibilityCluster() << endl;
+
+    cout << "Desviación general particion: " << problema_ES.getDesviacionGeneralParticion() << endl;
+
+    cout << "Error_distancia = " << abs(problema_ES.getDesviacionGeneralParticion() - distancia_optima) << endl;
+
     cout << "Tiempo = " << tiempo << endl << endl << endl;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    cout << "BMB" << endl;
+
+    clusters.clear();
+    tiempo = 0;
+
+    PAR problema_BMB(datos,restricciones,num_clusters,semilla);
+    cout << "LLamando al algoritmo busqueda multiarranque básica..." << endl;
+
+    start_timers();
+    clusters = problema_BMB.BMB(10,10000);
+    tiempo = elapsed_time();
+
+    cout << "Algoritmo Busqueda Multiarranque Basica terminado" << endl;
+
+    for (int i = 0; i < clusters.size(); i++){
+        cout << "El cluster " << i << " ha terminado con: " << clusters[i].getPuntos().size() << " elementos" << endl;
+    }
+
+    cout << endl << endl;
+
+    cout << "Agregado = " << problema_BMB.getAgregado() << endl;
+
+    cout << "Tasa_inf = " << problema_BMB.calcularInfeasibilityCluster() << endl;
+
+    cout << "Desviación general particion: " << problema_BMB.getDesviacionGeneralParticion() << endl;
+
+    cout << "Error_distancia = " << abs(problema_BMB.getDesviacionGeneralParticion() - distancia_optima) << endl;
+
+    cout << "Tiempo = " << tiempo << endl << endl << endl;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    cout << "Busqueda Local Reiterada (ILS)" << endl;
+
+    clusters.clear();
+
+    tiempo = 0;
+
+    PAR problema_ILS(datos,restricciones,num_clusters,semilla);
+    cout << "LLamando al algoritmo busqueda local reiterada..." << endl;
+
+    start_timers();
+    clusters = problema_ILS.ILS(problema_ILS.generarSolucionAleatoria(num_clusters),10000,10,0.1,false);
+
+    tiempo = elapsed_time();
+
+    cout << "Algoritmo Busqueda Local Reiterada terminado" << endl;
+
+    for (int i = 0; i < clusters.size(); i++){
+        cout << "El cluster " << i << " ha terminado con: " << clusters[i].getPuntos().size() << " elementos" << endl;
+    }
+
+    cout << endl << endl;
+
+    cout << "Agregado = " << problema_ILS.getAgregado() << endl;
+
+    cout << "Tasa_inf = " << problema_ILS.calcularInfeasibilityCluster() << endl;
+
+    cout << "Desviación general particion: " << problema_ILS.getDesviacionGeneralParticion() << endl;
+
+    cout << "Error_distancia = " << abs(problema_ILS.getDesviacionGeneralParticion() - distancia_optima) << endl;
+
+    cout << "Tiempo = " << tiempo << endl << endl << endl;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    cout << "ILS-ES" << endl;
+
+    clusters.clear();
+
+    tiempo = 0;
+
+    PAR problema_ILS_ES(datos,restricciones,num_clusters,semilla);
+    cout << "LLamando al algoritmo busqueda local reiterada..." << endl;
+
+    start_timers();
+    clusters = problema_ILS_ES.ILS(problema_ILS.generarSolucionAleatoria(num_clusters),10000,10,0.1,true);
+
+    tiempo = elapsed_time();
+
+    cout << "Algoritmo Busqueda Local Reiterada terminado" << endl;
+
+    for (int i = 0; i < clusters.size(); i++){
+        cout << "El cluster " << i << " ha terminado con: " << clusters[i].getPuntos().size() << " elementos" << endl;
+    }
+
+    cout << endl << endl;
+
+    cout << "Agregado = " << problema_ILS_ES.getAgregado() << endl;
+
+    cout << "Tasa_inf = " << problema_ILS_ES.calcularInfeasibilityCluster() << endl;
+
+    cout << "Desviación general particion: " << problema_ILS_ES.getDesviacionGeneralParticion() << endl;
+
+    cout << "Error_distancia = " << abs(problema_ILS_ES.getDesviacionGeneralParticion() - distancia_optima) << endl;
+
+    cout << "Tiempo = " << tiempo << endl << endl << endl;
+
 
     return 0;
 }

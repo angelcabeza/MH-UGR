@@ -53,7 +53,7 @@ class PAR{
         void calcularAgregado();
         double getAgregado();
         vector<Cluster> generarSolucionAleatoria(int num_clusters);
-        vector<Cluster> BusquedaLocal(vector<Cluster> & sol_inicial,const int MAX_ITER);
+        pair<vector<Cluster>,double> BusquedaLocal(vector<Cluster> & sol_inicial,const int MAX_ITER);
         vector<Cluster> AlgGenetico(const int EV_MAX,const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE, operador_cruce tipo_cruce, tipo_generacion tipo_gen ,bool elitismo);
         vector<Cluster> AlgMemetico(const int EV_MAX, const int TAM_POB,const double PROB_MUT, const double PROB_CRUCE,bool elitismo,tipo_memetico memtico);
         vector<int> clustersToSolucion( vector<Cluster> clustersSol);
@@ -65,8 +65,12 @@ class PAR{
         int operadorMutacion(vector<pair<vector<int>, double>> & poblacion, const double PROB_MUT,tipo_generacion tipo_gen);
         vector<vector<int>> generarPoblacionInicial(const int TAM_POB);
         int busquedaLocalSuave(pair<vector<int>,double> & solucion, const int num_fallos_permitidos);
-        
-
+        pair<vector<Cluster>,double> EnfriamientoSimulado(const vector<Cluster> & ini, const unsigned TOPE_EVALUACIONES, const double prob_sea_peor, const double prob_aceptar_peor);
+        double esquema_enfriamiento(const double temperatura, const double temperatura_inicial, const double temperatura_final, const double M, const int num_enfriamiento) const;
+        pair<pair<vector<Cluster>,double>,int> generar_vecino_es(const pair<pair<vector<Cluster>,double>,int> & ini);
+        vector<Cluster> BMB(const int num_soluciones,const int num_ite_solucion);
+        vector<Cluster> ILS (const vector<Cluster> & ini, const int IT_BL, const int IT_ILS, const double cambio_mutacion, bool enfriamiento_simulado);
+        pair<vector<Cluster>,double> operadorMutacionSegmentoFijo (const pair<vector<PAR::Cluster>,double> & ini,const double porcentaje_cambiar);
     private:
         int num_clusters;
         double agregadoSol;
